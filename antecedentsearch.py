@@ -1,14 +1,14 @@
 #importeer regex module
 import re
 #open de tekst om te lezen
-text=open(r'C:\Users\EDWAZ56\Desktop\pythonantecedent\voorbeeld.txt','r')
+text=open(r'C:\Users\EDWAZ56\Desktop\pythonantecedent\1000-passion-bfm-p.txt','r')
 
 #ken variabele toe aan tekst
 tekst=text.read()
 #print volledige tekst
 print tekst
 #zoek alle zelfstandige naamwoorden in tekst
-nouns=re.finditer('\(n\)([a-z]*)',tekst)
+nouns=re.finditer('\(NP-SBJ \(([a-z]*)',tekst)
 #print matchobject met alle zelfstandige naamwoorden
 print nouns
 
