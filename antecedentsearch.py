@@ -27,47 +27,28 @@ for noun in nouns:
     subtekst=tekst[pos:]
     #print subtekst
     
-    #zoek alle werkwoorden in subtekst
-    verbs=re.finditer('VJ ',subtekst)
-    #print matchobject met alle werkwoorden
-    #print verbs
-    #initiate cardinality, set cardinality to 0
-    cardinality=0
-    #initiate verbpos
-    verbposold=0
-    #overloop alle werkwoorden in subtekst
-    nouncounter+=1
-    for verb in verbs:
-            #houd counter bij
+    #zoek volgende zelfstandig naamwoord kopie in tekst
+    nounoccurence=noun.group(1)
+    regex='NCS (%s)\)' %(nounoccurence) 
+    nouncopy=re.search(regex,subtekst)
+    #indien gevonden, herdefinieer subtekst als tekst tussen twee opeenvolgende zelfde zelfstandige naamwoorden
+    if nouncopy is not None:
+        endpos=nouncopy.span()[1]
+        subtekst=subtekst[:endpos]
+        
+        #zoek naar werkwoorden in subtekst
+        verbs=re.finditer('VJ ',subtekst)   
+        cardinality=0
+        #houd de tel bij van aantal werkwoorden
+        for verb in verbs:
             cardinality+=1
-            #print werkwoord
-            #print verb
-            #print verb.group()
-            #positie van het werkwoord in subtekst
-            verbposnew=verb.span()[1]-verbposold
-            
-            #herdefinieer subtekst als tekst beginnend vanaf laatste eindpositie en eindigend bij positie werkwoord
-            subtekst=subtekst[verbposold:verbposnew]
-            
-            #redefine verbposold
-            verbposold=verbposnew          
-            #zoek naar zelfstandig naamwoord in subtekst
-            #print noun.group(1)
-            nounoccurence=noun.group(1)
-            regex='NCS (%s)\)' %(nounoccurence) 
-            nouncopy=re.search(regex,subtekst)
-            #indien gevonden, ga uit binnenste loop en ga naar volgend zelfstandig naamwoord en geef counter weer
-            if nouncopy is not None:
-                print subtekst
-                print cardinality
-                nouncopy=noun.group(1)
-                print 'The noun %s was found after verb number %s' %(nouncopy,cardinality)
-                counter+=1
-                break
-            else:
-                continue
-print counter
-print nouncounter
+        print 'The noun %s was found after %s verbs.' %(nounoccurence,cardinality)
+    else:
+        nouncopy=noun.group(1)
+        print 'The noun %s was not found.' %(nounoccurence)
+    
+    
+ 
 
 
 '''#zoek volgende woord pastoor op regel
