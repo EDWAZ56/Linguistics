@@ -1,0 +1,16 @@
+( (CODE <text>))
+
+( (CODE <p%%%n="I">))
+
+( (CODE <lb%%%n="1">))
+
+( (IP-MAT (NP-1 (NCS roi) (NPRS deu))
+	  (CODE {LINSKILL:Deu})
+	  (NP-SBJ *pro*)
+	  (MDJ devemps)
+	  (IP-INF (IP-INF (NP-ACC *ICH*-1)
+			  (VJ lauder))
+		  (CONJP (LJ et)
+			 (IP-INF (PP (P a)
+				     (NP-PP (DZ sos) (NCS rois)))
+		
