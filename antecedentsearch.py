@@ -13,7 +13,7 @@ def antecedentsearch(listfile,folder):
     #create csv file with header for aggregate output
     aggregateoutput=open("aggregate_output.csv","w")
     aggregateoutputwriter=csv.writer(aggregateoutput,delimiter=";",quotechar='|', quoting=csv.QUOTE_MINIMAL,lineterminator = '\n')
-    aggregateoutputwriter.writerow(['noun','cardinality','type','textfile'])
+    aggregateoutputwriter.writerow(['noun','cardinality','type','textfile','id'])
     #loop folder with text files to scan
     for textfile in os.listdir(folder):
         #open text file for reading
@@ -25,15 +25,15 @@ def antecedentsearch(listfile,folder):
         #zoek alle zelfstandige naamwoorden in tekst
         nouns=re.finditer('NC(S|PL) ([A-Za-z]*)\)',tekst)
         #print matchobject met alle zelfstandige naamwoorden
-        print (nouns)
+        #print (nouns)
 
         #overloop alle zelfstandige naamwoorden in tekst
         counter=0
         nouncounter=0
         #create csv file with header
-        singleoutput=open("%s_output.csv" % (textfile),"w")
+        singleoutput=open("output/%s_output.csv" % (textfile),"w")
         singleoutputwriter=csv.writer(singleoutput,delimiter=";",quotechar='|', quoting=csv.QUOTE_MINIMAL,lineterminator = '\n')
-        singleoutputwriter.writerow(['noun','cardinality','type'])
+        singleoutputwriter.writerow(['noun','cardinality','type','id'])
         #create list of noun and cardinality tuples
         outputlist=[]
         for noun in nouns:
@@ -47,10 +47,10 @@ def antecedentsearch(listfile,folder):
             #herdefinieer tekst als tekst beginnend vanaf eindpositie zelfstandig naamwoord
             subtekst=tekst[pos:]
             #print subtekst
-            
+            number=noun.group(1)
             #zoek volgende zelfstandig naamwoord kopie in tekst
             nounoccurence=noun.group(2)
-            regex='NCS (%s)\)' %(nounoccurence) 
+            regex='NC(%s) (%s)[s,z]{,1}\)' %(number,nounoccurence) 
             nouncopy=re.search(regex,subtekst)
             #indien gevonden, herdefinieer subtekst als tekst tussen twee opeenvolgende zelfde zelfstandige naamwoorden
             if nouncopy is not None:
@@ -58,19 +58,32 @@ def antecedentsearch(listfile,folder):
                 subtekst=subtekst[:endpos]
                 
                 #zoek naar werkwoorden in subtekst
-                verbs=re.finditer('VJ ',subtekst)   
+                verbs=re.finditer('([VEAL]|MD)J ',subtekst) #of gebruik ID als type
                 cardinality=0
                 #houd de tel bij van aantal werkwoorden
                 for verb in verbs:
                     cardinality+=1
-                print ('The noun %s was found after %s verbs.' %(nounoccurence,cardinality))                     
+                #print ('The noun %s was found after %s verbs.' %(nounoccurence,cardinality))
+
+                
+                
+                #defnieer ID
+                id_full=re.search('ID (.+)\)',subtekst)              
+                #indien id gevonden,zoek eerste ID na noun
+                if id_full is not None:
+                    id=id_full.group(1)[:-1]
+                else:
+                    id="not found"
+
+                
             else:
+                id=""
                 nouncopy=noun.group(1)
                 cardinality=0
-                print ('The noun %s was not found.' %(nounoccurence))
+                #print ('The noun %s was not found.' %(nounoccurence))
                 
             #add noun-cardinality tuple to list
-            outputlist.append((nounoccurence,cardinality))    
+            outputlist.append((nounoccurence,cardinality,id))    
         #sort list by number of verbs found descending
         outputlist=sorted(outputlist,key=lambda x: x[1], reverse=True)
             
@@ -93,9 +106,9 @@ def antecedentsearch(listfile,folder):
         
         
             #write result to output file
-            singleoutputwriter.writerow([item[0],item[1],type])
+            singleoutputwriter.writerow([item[0],item[1],type,item[2]])
             #update aggregate output file
-            aggregateoutputwriter.writerow([item[0],item[1],type,textfile])
+            aggregateoutputwriter.writerow([item[0],item[1],type,textfile,item[2]])
          
         
         singleoutput.close()
