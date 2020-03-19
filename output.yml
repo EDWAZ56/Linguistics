@@ -1,0 +1,4044 @@
+Rules:
+
+#CONTENTS
+
+  #NEUTRAL NOUNS
+  #FEMININE NOUNS
+  #PLURALIA TANTUM
+  #PROPER NOUNS
+  #ADJECTIVES
+
+#readme
+#Paradigms that have id's starting with "mova-" are based on ГРАМАТИЧНИЙ СЛОВНИК УКРАЇНСЬКОЇ МОВИ (MOVA.info, лабораторії комп'ютерної лінгвістики Київського національного унівеситету імені Тараса Шевченка), which is based on Критська В.І., Недозим Т.І., Орлова Л.В., Пуздирєва Т.К., Романюк Ю.В. Граматичний словник української літературної мови. Словозміна: Близько 140 000 тис. слів / Відп. ред. Н.Ф.Клименко. – Видавничий Дім Дмитра Бураго, 2011. – 760 с. ISBN 978-966-489-107-0
+
+#ACHTUNG ADD fix soft sign pron in "ь" and "ьми"
+
+  - id: "N_uninflected"
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "", "" ]
+      - [ "noun_gen_neut_sing" , "", "" ]
+      - [ "noun_dat_neut_sing" , "", "" ]
+      - [ "noun_acc_neut_sing" , "", "" ]
+      - [ "noun_ins_neut_sing" , "", "" ]
+      - [ "noun_pre_neut_sing" , "", "" ]
+      - [ "noun_nom_neut_plur" , "", "" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "", "" ]
+      - [ "noun_acc_neut_plur" , "", "" ]
+      - [ "noun_ins_neut_plur" , "", "" ]
+      - [ "noun_pre_neut_plur" , "", "" ]
+ 
+#MASCULINE NOUNS
+
+  - id: "mova-m_1_i" #сусід
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "", "" ]
+      - [ "noun_gen_masc_sing_i" , "а", "A" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OV%Ji" ]
+      - [ "noun_acc_masc_sing_i" , "а", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "Ji" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OV%Ji" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "и", "I" ]
+      - [ "noun_gen_masc_plur_i" , "ів", "JiV" ] 
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "ів", "jiV" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Ax" ]
+
+  - id: "mova-m_1одн._i" #жупан, туз
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i " , "", "" ]
+      - [ "noun_gen_masc_sing_i" , "а", "A" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing_i" , "", "" ]
+      - [ "noun_acc_masc_sing_i" , "а", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "%ji" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "и", "I" ]
+      - [ "noun_gen_masc_plur_i" , "ів", "JiV" ] 
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Ax" ]
+
+  - id: "mova-m_1рр(мн.)_i" #хозар
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "", "" ]
+      - [ "noun_gen_masc_sing_i" , "а", "A" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing_i" , "а", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "%ji" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "и", "I" ]
+      - [ "noun_gen_masc_plur_i" , "ів", "JiV" ] 
+      - [ "noun_gen_masc_plur_i" , "", "" ] 
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Ax" ]
+
+  - id: "mova-m_1к_i" #дід
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "", "" ]
+      - [ "noun_gen_masc_sing_i" , "а", "A" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing_i" , "а", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "%ji" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "и", "I" ]
+      - [ "noun_gen_masc_plur_i" , "ів", "JiV" ] 
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Ax" ]
+
+  - id: "mova-m_1[дм]_i" #змієлов
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "", "" ]
+      - [ "noun_gen_masc_sing_i" , "а", "A" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing_i" , "а", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "%ji" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "и", "I" ]
+      - [ "noun_gen_masc_plur_i" , "ів", "JiV" ] 
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Ax" ]
+
+  - id: "mova-m_1" #колос
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "%ji" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ] 
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "I" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_1мм" #чан
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "%ji" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ] 
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "I" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_1[дм]" #хлів
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ] 
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "I" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_1рр" #двір
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "%ji" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ] 
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "I" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_1ррм2м2" #стіл
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "%ji" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_pre2_masc_sing" , "і", "Jі" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ] 
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "I" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_2мн." #кобеняк
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_2" #бурдяк
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+      - [ "noun_pre_masc_plur" , "и", "І" ]
+
+  - id: "mova-m_2мн.мк" #кожух
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_2мн.ррмм" #барліг
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "i", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_2м" #ковчег
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "i", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_2мм" #батіг
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "i", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_2мк" #капелюх
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "i", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_2_i" #власник
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "", "" ]
+      - [ "noun_gen_masc_sing_i" , "а", "A" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing_i" , "а", "А" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "у", "u" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "и", "I" ]
+      - [ "noun_gen_masc_plur_i" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "и", "І" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Ax" ]
+
+  - id: "mova-m_2к_i" #бурлак
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "", "" ]
+      - [ "noun_gen_masc_sing_i" , "а", "A" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing_i" , "а", "А" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "у", "u" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "и", "I" ]
+      - [ "noun_gen_masc_plur_i" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "и", "І" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Ax" ]
+
+  - id: "mova-m_2кк_i" #жених
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "", "" ]
+      - [ "noun_gen_masc_sing_i" , "а", "A" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing_i" , "а", "А" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "у", "u" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "и", "I" ]
+      - [ "noun_gen_masc_plur_i" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "и", "І" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Ax" ]
+
+  - id: "mova-m_3" #ніж
+  - id: "mova-m_3к" #лаваш
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "eм", "Em" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "Еві", "ЕV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "i", "Ji" ]
+      - [ "noun_gen_masc_plur" , "iв", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "і", "i" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_3_і" #вуж
+  - id: "mova-m_3к_і" #павич
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_acc_masc_sing" , "a", "A" ]
+      - [ "noun_ins_masc_sing" , "eм", "Em" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "еві", "ЕV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "i", "Ji" ]
+      - [ "noun_gen_masc_plur" , "iв", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_3мм_і" #небіж
+  - id: "mova-m_3мн.ммк" #родич
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_acc_masc_sing" , "a", "A" ]
+      - [ "noun_ins_masc_sing" , "eм", "Em" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "еві", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "i", "Ji" ]
+      - [ "noun_gen_masc_plur" , "iв", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_4" #друг
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "а", "A" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "і", "Jі" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ям", "%jAm" ]
+      - [ "noun_acc_masc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur" , "ями", "%jAmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "%jAx" ]
+
+  - id: "mova-m_5" #хабар
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "і", "Jі" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_5_і" #комар
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "а", "А" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "і", "Jі" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ів", ""i", "Ji"" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_6" #чобіт
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "І" ]
+      - [ "noun_gen_masc_plur" , "", "" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_dat_masc_plur" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_ins_masc_plur" , "ями", "jAmI" ]
+      - [ "noun_ins_masc_plur" , "ьми", "%mI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+      - [ "noun_pre_masc_plur" , "ях", "jAx" ]
+
+  - id: "mova-7" #рапс
+  - id: "mova-m_7мн." #шум
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "i", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "jiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_7мн.нн(мн.)" #очерет
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "i", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_nom_masc_plur" , "а", "А" ]
+      - [ "noun_gen_masc_plur" , "ів", "jiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_7мн.мм" #хід
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "i", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_nom_masc_plur" , "а", "А" ]
+      - [ "noun_gen_masc_plur" , "ів", "jiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_7[дм]" #вилов
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "i", "Ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "jiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_7[дм]мм" #рів
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "i", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "jiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_7мм" #чад
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "i", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "jiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_7рр(мн.)" #раз
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "i", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "jiV" ]
+      - [ "noun_gen_masc_plur" , "", "" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_8" #шовк
+  - id: "mova-m_8оо" #шлях
+  - id: "mova-m_8одн." #страх
+  - id: "mova-m_8мн." #сміх
+  - id: "mova-m_8мн.м" #рік
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "jiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_8м" #крок
+  - id: "mova-m_8мк" #луг
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "jiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_8мм" #поверх
+  - id: "mova-m_8ммкк" #байрак
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "jiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_9" #сінаж
+  - id: "mova-m_9к" #кумач
+  - id: "mova-m_9одн.к" #плач
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "eм", "Em" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "еві", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "i", "Ji" ]
+      - [ "noun_gen_masc_plur" , "iв", "jiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "і", "i" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_10" #якір #ACHTUNG vowel alternation
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "я", "A" ]
+      - [ "noun_dat_masc_sing" , "ю", "u" ]
+      - [ "noun_dat_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ем", "Em" ]
+      - [ "noun_pre1_masc_sing" , "і", "i" ]
+      - [ "noun_pre1_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_pre2_masc_sing" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur" , "і", "i" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ям", "Am" ]
+      - [ "noun_acc_masc_plur" , "і", "i" ]
+      - [ "noun_ins_masc_plur" , "ями", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "Ax" ]
+
+  - id: "mova-m_10_i" #піскар
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "", "" ]
+      - [ "noun_gen_masc_sing_i" , "я", "A" ]
+      - [ "noun_dat_masc_sing_i" , "ю", "u" ]
+      - [ "noun_dat_masc_sing_i" , "еві", "EV%ji" ]
+      - [ "noun_acc_masc_sing_i" , "я", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ем", "Em" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "i" ]
+      - [ "noun_pre1_masc_sing_i" , "еві", "EV%ji" ]
+      - [ "noun_pre2_masc_sing_i" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur_i" , "і", "i" ]
+      - [ "noun_gen_masc_plur_i" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur_i" , "ям", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur_i" , "ями", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ях", "Ax" ]
+
+  - id: "mova-m_10мм" #писар
+  - id: "mova-m_10мн.мм" #токар
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "я", "A" ]
+      - [ "noun_dat_masc_sing" , "ю", "u" ]
+      - [ "noun_dat_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_acc_masc_sing" , "я", "JA" ]
+      - [ "noun_ins_masc_sing" , "ем", "Em" ]
+      - [ "noun_pre1_masc_sing" , "і", "i" ]
+      - [ "noun_pre1_masc_sing" , "ю", "Ju" ]
+      - [ "noun_pre1_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_pre2_masc_sing" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur" , "і", "i" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ям", "Am" ]
+      - [ "noun_acc_masc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur" , "ями", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "Ax" ]
+
+  - id: "mova-m_11" #янтар
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ем", "Em" ]
+      - [ "noun_pre1_masc_sing" , "і", "i" ]
+      - [ "noun_pre1_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_pre2_masc_sing" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur" , "і", "i" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur" , "і", "i" ]
+      - [ "noun_ins_masc_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "Ax" ]
+
+  - id: "mova-m_12" #хліб
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "А" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "оV%ji" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "оm" ]
+      - [ "noun_pre1_masc_sing" , "і", "i" ]
+      - [ "noun_pre1_masc_sing" , "ові", "оV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ] 
+      - [ "noun_nom_masc_plur" , "а", "А" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "а", "А" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "Ax" ]
+
+  - id: "mova-m_13" #рояль
+  - id: "mova-m_13мн." #валень
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ь", "%j" ]
+      - [ "noun_gen_masc_sing" , "я", "jА" ] 
+      - [ "noun_dat_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_acc_masc_sing" , "ь", "%j" ]
+      - [ "noun_ins_masc_sing" , "ем", "Em" ]
+      - [ "noun_pre1_masc_sing" , "і", "i" ]
+      - [ "noun_pre1_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_pre2_masc_sing" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur" , "і", "i" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur" , "і", "i" ]
+      - [ "noun_ins_masc_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "Ax" ]
+
+  - id: "mova-m_13_і" #олень
+  - id: "mova-m_13к_і" #горобець
+  - id: "mova-m_13мн._i" #півень
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "ь", "%j" ]
+      - [ "noun_gen_masc_sing_i" , "я", "jА" ] 
+      - [ "noun_dat_masc_sing_i" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing_i" , "еві", "EV%ji" ]
+      - [ "noun_acc_masc_sing_i" , "я", "JA" ]
+      - [ "noun_ins_masc_sing_i" , "ем", "Em" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "i" ]
+      - [ "noun_pre1_masc_sing_i" , "еві", "EV%ji" ]
+      - [ "noun_pre2_masc_sing_i" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur_i" , "і", "ji" ]
+      - [ "noun_gen_masc_plur_i" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur_i" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur_i" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur_i" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur_i" , "ях", "Ax" ]
+
+  - id: "mova-m_13мм_і" #витязь
+  - id: "mova-m_13ммк_і" #швець
+  - id: "mova-m_13одн.мм_і" #швець
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ь", "%j" ]
+      - [ "noun_gen_masc_sing" , "я", "jА" ] 
+      - [ "noun_dat_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_acc_masc_sing" , "я", "JA" ]
+      - [ "noun_ins_masc_sing" , "ем", "Em" ]
+      - [ "noun_pre1_masc_sing" , "і", "i" ]
+      - [ "noun_pre1_masc_sing" , "ю", "Ju" ]
+      - [ "noun_pre1_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_pre2_masc_sing" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur" , "і", "i" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "Ax" ]
+
+  - id: "mova-m_14" #гель
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ь", "%j" ]
+      - [ "noun_gen_masc_sing" , "ю", "Ju" ] 
+      - [ "noun_dat_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_acc_masc_sing" , "ь", "%j" ]
+      - [ "noun_ins_masc_sing" , "ем", "Em" ]
+      - [ "noun_pre1_masc_sing" , "і", "i" ]
+      - [ "noun_pre1_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_pre2_masc_sing" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur" , "і", "i" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur" , "і", "i" ]
+      - [ "noun_ins_masc_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "Ax" ]
+
+  - id: "mova-m_14одн.мм" #жаль
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ь", "%j" ]
+      - [ "noun_gen_masc_sing" , "ю", "Ju" ] 
+      - [ "noun_dat_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_acc_masc_sing" , "ь", "%j" ]
+      - [ "noun_ins_masc_sing" , "ем", "Em" ]
+      - [ "noun_pre1_masc_sing" , "і", "i" ]
+      - [ "noun_pre1_masc_sing" , "ю", "Ju" ]
+      - [ "noun_pre1_masc_sing" , "еві", "EV%ji" ]
+      - [ "noun_pre2_masc_sing" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur" , "і", "i" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur" , "і", "Ji" ]
+      - [ "noun_ins_masc_plur" , "ями", "JAmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "Ax" ]
+
+  - id: "mova-m_15_i" #змій
+    lemma: "noun_nom_masc_sing" 
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "й", "j" ]
+      - [ "noun_gen_masc_sing_i" , "я", "JA" ]
+      - [ "noun_dat_masc_sing_i" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing_i" , "єві", "jEV%ji" ]
+      - [ "noun_acc_masc_sing_i" , "я", "JA" ]
+      - [ "noun_ins_masc_sing_i" , "єм", "jEm" ]
+      - [ "noun_pre1_masc_sing_i" , "ї", "Ji" ]
+      - [ "noun_pre1_masc_sing_i" , "єві", "jEV%ji" ]
+      - [ "noun_pre2_masc_sing_i" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur_i" , "ї", "Ji" ]
+      - [ "noun_gen_masc_plur_i" , "їв", "JiV" ]
+      - [ "noun_dat_masc_plur_i" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur_i" , "їв", "JiV" ]
+      - [ "noun_ins_masc_plur_i" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur_i" , "ях", "jAx" ]
+
+  - id: "mova-m_15мм_i" #герой
+  - id: "mova-m_15мн.мм_i" #буржуй
+    lemma: "noun_nom_masc_sing" 
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "й", "j" ]
+      - [ "noun_gen_masc_sing_i" , "я", "JA" ]
+      - [ "noun_dat_masc_sing_i" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing_i" , "єві", "jEV%ji" ]
+      - [ "noun_acc_masc_sing_i" , "я", "JA" ]
+      - [ "noun_ins_masc_sing_i" , "єм", "jEm" ]
+      - [ "noun_pre1_masc_sing_i" , "ї", "Ji" ]
+      - [ "noun_pre1_masc_sing_i" , "ю", "Ju" ]
+      - [ "noun_pre1_masc_sing_i" , "єві", "jEV%ji" ]
+      - [ "noun_pre2_masc_sing_i" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur_i" , "ї", "Ji" ]
+      - [ "noun_gen_masc_plur_i" , "їв", "JiV" ]
+      - [ "noun_dat_masc_plur_i" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur_i" , "їв", "JiV" ]
+      - [ "noun_ins_masc_plur_i" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur_i" , "ях", "jAx" ]
+
+  - id: "mova-m_15" #буй
+    lemma: "noun_nom_masc_sing" 
+    endforms:
+      - [ "noun_nom_masc_sing" , "й", "j" ]
+      - [ "noun_gen_masc_sing" , "я", "JA" ]
+      - [ "noun_dat_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "єві", "jEV%ji" ]
+      - [ "noun_acc_masc_sing" , "й", "j" ]
+      - [ "noun_ins_masc_sing" , "єм", "jEm" ]
+      - [ "noun_pre1_masc_sing" , "ї", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "єві", "jEV%ji" ]
+      - [ "noun_pre1_masc_sing" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur" , "ї", "Ji" ]
+      - [ "noun_gen_masc_plur" , "їв", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur" , "ї", "Ji" ]
+      - [ "noun_ins_masc_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "jAx" ]
+
+  - id: "mova-m_15ррмм" #рій
+    lemma: "noun_nom_masc_sing" 
+    endforms:
+      - [ "noun_nom_masc_sing" , "й", "j" ]
+      - [ "noun_gen_masc_sing" , "я", "JA" ]
+      - [ "noun_gen_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "єві", "jEV%ji" ]
+      - [ "noun_acc_masc_sing" , "й", "j" ]
+      - [ "noun_ins_masc_sing" , "єм", "jEm" ]
+      - [ "noun_pre1_masc_sing" , "ї", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "ю", "Ju" ]
+      - [ "noun_pre1_masc_sing" , "єві", "jEV%ji" ]
+      - [ "noun_pre1_masc_sing" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur" , "ї", "Ji" ]
+      - [ "noun_gen_masc_plur" , "їв", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur" , "ї", "Ji" ]
+      - [ "noun_ins_masc_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "jAx" ]
+
+  - id: "mova-m_16" #край
+  - id: "mova-m_16мн." #врожай
+    lemma: "noun_nom_masc_sing" 
+    endforms:
+      - [ "noun_nom_masc_sing" , "й", "j" ]
+      - [ "noun_gen_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "єві", "jEV%ji" ]
+      - [ "noun_acc_masc_sing" , "й", "j" ]
+      - [ "noun_ins_masc_sing" , "єм", "jEm" ]
+      - [ "noun_pre1_masc_sing" , "ї", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "єві", "jEV%ji" ]
+      - [ "noun_pre2_masc_sing" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur" , "ї", "Ji" ]
+      - [ "noun_gen_masc_plur" , "їв", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur" , "ї", "Ji" ]
+      - [ "noun_ins_masc_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "jAx" ]
+
+  - id: "mova-m_16мм" #рай
+    lemma: "noun_nom_masc_sing" 
+    endforms:
+      - [ "noun_nom_masc_sing" , "й", "j" ]
+      - [ "noun_gen_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "єві", "jEV%ji" ]
+      - [ "noun_acc_masc_sing" , "й", "j" ]
+      - [ "noun_ins_masc_sing" , "єм", "jEm" ]
+      - [ "noun_pre1_masc_sing" , "ї", "Ji" ]
+      - [ "noun_pre1_masc_sing" , "ю", "Ju" ]
+      - [ "noun_pre1_masc_sing" , "єві", "jEV%ji" ]
+      - [ "noun_pre2_masc_sing" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur" , "ї", "Ji" ]
+      - [ "noun_gen_masc_plur" , "їв", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur" , "ї", "Ji" ]
+      - [ "noun_ins_masc_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "jAx" ]
+
+  - id: "mova-m_17_i" #громило
+  - id: "mova-m_17к_i" #ледащо
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "о", "о" ]
+      - [ "noun_gen_masc_sing_i" , "а", "A" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing_i" , "а", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "i" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "a", "А" ]
+      - [ "noun_gen_masc_plur_i" , "", "" ]
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "", "" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Ax" ]
+
+  - id: "mova-m_18_і" #міняйло
+  - id: "mova-m_18к_і" #вайло
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "о", "о" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "а", "A" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "i" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "І" ]
+      - [ "noun_gen_masc_plur" , "ів", "JіV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+ 
+  - id: "mova-m_19_і" #батько
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "о", "O" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "а", "A" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "jiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ів", "jiV" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_20" #чубисько
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "о", "O" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "о", "О" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "а", "А" ]
+      - [ "noun_gen_masc_plur" , "", "" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "а", "А" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_20рр(мн.)_і" #хлопчисько
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "о", "O" ]
+      - [ "noun_gen_masc_sing" , "а", "A" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_acc_masc_sing" , "а", "А" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OV%ji" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "а", "А" ]
+      - [ "noun_gen_masc_plur" , "", "" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "", "" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+
+  - id: "mova-m_21_і" #дядьо
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ьо", "%jO" ]
+      - [ "noun_gen_masc_sing" , "я", "JA" ]
+      - [ "noun_dat_masc_sing" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing" , "eві", "ЕV%ji" ]
+      - [ "noun_acc_masc_sing" , "я", "jА" ]
+      - [ "noun_ins_masc_sing" , "ем", "Еm" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "еві", "ЕV%ji" ]
+      - [ "noun_pre2_masc_sing" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur" , "i", "Ji" ]
+      - [ "noun_gen_masc_plur" , "iв", "іV" ]
+      - [ "noun_dat_masc_plur" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur" , "iв", "іV" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_22_і" #воєвода, вітрюга
+  - id: "mova-m_22рр(мн.)_і" #сирота
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "а", "А" ]
+      - [ "noun_gen_masc_sing" , "и", "І" ]
+      - [ "noun_dat_masc_sing" , "і", "Jі" ]
+      - [ "noun_acc_masc_sing" , "у", "u" ]
+      - [ "noun_ins_masc_sing" , "ою", "Oju" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre2_masc_sing" , "і", "Jі" ]
+      - [ "noun_nom_masc_plur" , "и", "І" ]
+      - [ "noun_gen_masc_plur" , "", "" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "", "" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_23_і" #ага
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "а", "А" ]
+      - [ "noun_gen_masc_sing" , "и", "І" ]
+      - [ "noun_dat_masc_sing" , "і", "Jі" ]
+      - [ "noun_acc_masc_sing" , "у", "u" ]
+      - [ "noun_ins_masc_sing" , "ою", "Oju" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre2_masc_sing" , "і", "Jі" ]
+      - [ "noun_nom_masc_plur" , "и", "І" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_23рр(мн.)_і" #мулла
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "а", "А" ]
+      - [ "noun_gen_masc_sing" , "и", "І" ]
+      - [ "noun_dat_masc_sing" , "і", "Jі" ]
+      - [ "noun_acc_masc_sing" , "у", "u" ]
+      - [ "noun_ins_masc_sing" , "ою", "Oju" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre2_masc_sing" , "і", "Jі" ]
+      - [ "noun_nom_masc_plur" , "и", "І" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_gen_masc_plur" , "", "" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_24_і" #вельможа
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "а", "А" ]
+      - [ "noun_gen_masc_sing" , "і", "Jі" ]
+      - [ "noun_dat_masc_sing" , "і", "Jі" ]
+      - [ "noun_acc_masc_sing" , "у", "u" ]
+      - [ "noun_ins_masc_sing" , "ею", "Еju" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre2_masc_sing" , "і", "Jі" ]
+      - [ "noun_nom_masc_plur" , "і", "Jі" ]
+      - [ "noun_gen_masc_plur" , "", "" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "", "" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_25_і" #чукча
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "а", "А" ]
+      - [ "noun_gen_masc_sing" , "і", "Jі" ]
+      - [ "noun_dat_masc_sing" , "і", "Jі" ]
+      - [ "noun_acc_masc_sing" , "у", "u" ]
+      - [ "noun_ins_masc_sing" , "ею", "Еju" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre2_masc_sing" , "і", "Jі" ]
+      - [ "noun_nom_masc_plur" , "і", "Jі" ]
+      - [ "noun_gen_masc_plur" , "ів", "JіV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ів", "JіV" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_26_і" #чукча
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "а", "А" ]
+      - [ "noun_gen_masc_sing" , "і", "Jі" ]
+      - [ "noun_dat_masc_sing" , "і", "Jі" ]
+      - [ "noun_acc_masc_sing" , "у", "u" ]
+      - [ "noun_ins_masc_sing" , "ею", "Еju" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre2_masc_sing" , "і", "Jі" ]
+      - [ "noun_nom_masc_plur" , "і", "Jі" ]
+      - [ "noun_gen_masc_plur" , "ей", "Ej" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ей", "Ej" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_27_і" #вбивця
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "я", "JA" ]
+      - [ "noun_gen_masc_sing" , "і", "Jі" ]
+      - [ "noun_dat_masc_sing" , "і", "Jі" ]
+      - [ "noun_acc_masc_sing" , "ю", "Ju" ]
+      - [ "noun_ins_masc_sing" , "ею", "Еju" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre2_masc_sing" , "і", "Jі" ]
+      - [ "noun_nom_masc_plur" , "і", "Jі" ]
+      - [ "noun_gen_masc_plur" , "ь", "%j" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ь", "%j" ]
+      - [ "noun_ins_masc_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "jAx" ]
+
+  - id: "mova-m_28_і" #суддя
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "я", "JA" ]
+      - [ "noun_gen_masc_sing" , "і", "Jі" ]
+      - [ "noun_dat_masc_sing" , "і", "Jі" ]
+      - [ "noun_acc_masc_sing" , "ю", "Ju" ]
+      - [ "noun_ins_masc_sing" , "ею", "Еju" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre2_masc_sing" , "і", "Jі" ]
+      - [ "noun_nom_masc_plur" , "і", "Jі" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "jAx" ]
+
+  - id: "mova-m_29_і" #витія
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "я", "JA" ]
+      - [ "noun_gen_masc_sing" , "ї", "Ji" ]
+      - [ "noun_dat_masc_sing" , "ї", "jі" ]
+      - [ "noun_acc_masc_sing" , "ю", "Ju" ]
+      - [ "noun_ins_masc_sing" , "єю", "Еju" ]
+      - [ "noun_pre1_masc_sing" , "ї", "jі" ]
+      - [ "noun_pre2_masc_sing" , "ї", "jі" ]
+      - [ "noun_nom_masc_plur" , "ї", "jі" ]
+      - [ "noun_gen_masc_plur" , "й", "j" ]
+      - [ "noun_dat_masc_plur" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur" , "й", "j" ]
+      - [ "noun_ins_masc_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur" , "ях", "jAx" ]
+
+  - id: "mova-m_30" #вітрище
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "е", "Е" ]
+      - [ "noun_gen_masc_sing" , "а", "А" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_acc_masc_sing" , "е", "E" ]
+      - [ "noun_ins_masc_sing" , "ем", "Еm" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "а", "A" ]
+      - [ "noun_gen_masc_plur" , "", "" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "а", "A" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Ax" ]
+
+  - id: "mova-m_30_i" #вовчище
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "е", "Е" ]
+      - [ "noun_gen_masc_sing_i" , "а", "А" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_acc_masc_sing_i" , "a", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ем", "Еm" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "Jі" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "а", "A" ]
+      - [ "noun_gen_masc_plur_i" , "", "" ]
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "", "" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Ax" ]
+
+  - id: "mova-m_31" #лютий
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ий", "Іj" ]
+      - [ "noun_gen_masc_sing" , "ого", "OgOг" ]
+      - [ "noun_dat_masc_sing" , "ому", "Omu" ]
+      - [ "noun_acc_masc_sing" , "ий", "Ij" ]
+      - [ "noun_ins_masc_sing" , "им", "Im" ]
+      - [ "noun_pre1_masc_sing" , "ому", "Omu" ]
+      - [ "noun_pre1_masc_sing" , "ім", "іm" ]
+      - [ "noun_pre2_masc_sing" , "ому", "Omu" ]
+      - [ "noun_nom_masc_plur" , "і", "i" ]
+      - [ "noun_gen_masc_plur" , "их", "Iх" ]
+      - [ "noun_dat_masc_plur" , "им", "Іm" ]
+      - [ "noun_acc_masc_plur" , "i", "Ji" ]
+      - [ "noun_ins_masc_plur" , "ими", "ImI" ]
+      - [ "noun_pre_masc_plur" , "их", "Iх" ]
+
+  - id: "mova-m_31_i" #вчений
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "ий", "Іj" ]
+      - [ "noun_gen_masc_sing_i" , "ого", "OgO" ]
+      - [ "noun_dat_masc_sing_i" , "ому", "Omu" ]
+      - [ "noun_acc_masc_sing_i" , "ого", "OgO" ]
+      - [ "noun_ins_masc_sing_i" , "им", "Im" ]
+      - [ "noun_pre1_masc_sing_i" , "ому", "Omu" ]
+      - [ "noun_pre1_masc_sing_i" , "ім", "іm" ]
+      - [ "noun_pre2_masc_sing_i" , "ому", "Omu" ]
+      - [ "noun_nom_masc_plur_i" , "і", "i" ]
+      - [ "noun_gen_masc_plur_i" , "их", "Iх" ]
+      - [ "noun_dat_masc_plur_i" , "им", "Іm" ]
+      - [ "noun_acc_masc_plur_i" , "их", "Iх" ]
+      - [ "noun_ins_masc_plur_i" , "ими", "ImI" ]
+      - [ "noun_pre_masc_plur_i" , "их", "Iх" ]
+
+  - id: "mova-m_32" #Всевишній
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ій", "іj" ]
+      - [ "noun_gen_masc_sing" , "ього", "%jOgO" ]
+      - [ "noun_dat_masc_sing" , "ьому", "%jOmu" ]
+      - [ "noun_acc_masc_sing" , "ього", "%jOgO" ]
+      - [ "noun_ins_masc_sing" , "ім", "im" ]
+      - [ "noun_pre1_masc_sing" , "ьому", "%jOmu" ]
+      - [ "noun_pre1_masc_sing" , "ім", "іm" ]
+      - [ "noun_pre2_masc_sing" , "ому", "Omu" ]
+
+  - id: "mova-m_33" #кабельтов
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "А" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "i" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "их", "Iх" ]
+      - [ "noun_dat_masc_plur" , "им", "Іm" ]
+      - [ "noun_acc_masc_plur" , "и", "I" ]
+      - [ "noun_ins_masc_plur" , "ими", "ImI" ]
+      - [ "noun_pre_masc_plur" , "их", "Iх" ]
+
+  - id: "mova-m_34_i" #циган
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "", "" ]
+      - [ "noun_gen_masc_sing_i" , "а", "А" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing_i" , "а", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "i" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "и", "I" ]
+      - [ "noun_gen_masc_plur_i" , "", "" ]
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "", "" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Aх" ]
+
+  - id: "mova-m_35_i" #боярин
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "", "" ]
+      - [ "noun_gen_masc_sing_i" , "а", "А" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing_i" , "а", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "i" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "и", "I" ]
+      - [ "noun_gen_masc_plur_i" , "", "" ]
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "", "" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Aх" ]
+
+  - id: "mova-m_36_i" #хазяїн
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "", "" ]
+      - [ "noun_gen_masc_sing_i" , "а", "А" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing_i" , "а", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "i" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "и", "I" ]
+      - [ "noun_nom_masc_plur_i" , "ї", "Ji" ]
+      - [ "noun_gen_masc_plur_i" , "ів", "JіV" ]
+      - [ "noun_gen_masc_plur_i" , "їв", "JiV" ]
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_dat_masc_plur_i" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur_i" , "ів", "JiV" ]
+      - [ "noun_acc_masc_plur_i" , "їв", "JiV" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_ins_masc_plur_i" , "ями", "jAmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Aх" ]
+      - [ "noun_pre_masc_plur_i" , "ях", "jAх" ]
+
+  - id: "mova-m_37_i" #Господь
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "ь", " " ]
+      - [ "noun_gen_masc_sing_i" , "а", "А" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing_i" , "а", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "i" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+
+  - id: "mova-m_38_i" #кінь
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "ь", "%j" ]
+      - [ "noun_gen_masc_sing_i" , "я", "JA" ]
+      - [ "noun_dat_masc_sing_i" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing_i" , "еві", "EVi" ]
+      - [ "noun_acc_masc_sing_i" , "я", "JA" ]
+      - [ "noun_ins_masc_sing_i" , "ем", "Em" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "i" ]
+      - [ "noun_pre1_masc_sing_i" , "еві", "EVi" ]
+      - [ "noun_pre2_masc_sing_i" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur_i" , "і", "i" ]
+      - [ "noun_gen_masc_plur_i" , "ей", "Ej" ]
+      - [ "noun_dat_masc_plur_i" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur_i" , "ей", "Ej" ]
+      - [ "noun_ins_masc_plur_i" , "ями", "jAmI" ]
+      - [ "noun_ins_masc_plur_i" , "ьми", "%jmI" ]
+      - [ "noun_pre_masc_plur_i" , "ях", "jAх" ]
+
+  - id: "mova-m_38мм_i" #гість
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "ь", "%j" ]
+      - [ "noun_gen_masc_sing_i" , "я", "JA" ]
+      - [ "noun_dat_masc_sing_i" , "ю", "Ju" ]
+      - [ "noun_dat_masc_sing_i" , "еві", "EVi" ]
+      - [ "noun_acc_masc_sing_i" , "я", "JA" ]
+      - [ "noun_ins_masc_sing_i" , "ем", "Em" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "i" ]
+      - [ "noun_pre1_masc_sing_i" , "ю", "Ju" ]
+      - [ "noun_pre1_masc_sing_i" , "еві", "EVi" ]
+      - [ "noun_pre2_masc_sing_i" , "ю", "Ju" ]
+      - [ "noun_nom_masc_plur_i" , "і", "i" ]
+      - [ "noun_gen_masc_plur_i" , "ей", "Ej" ]
+      - [ "noun_dat_masc_plur_i" , "ям", "JAm" ]
+      - [ "noun_acc_masc_plur_i" , "ей", "Ej" ]
+      - [ "noun_ins_masc_plur_i" , "ями", "jAmI" ]
+      - [ "noun_ins_masc_plur_i" , "ьми", "%jmI" ]
+      - [ "noun_pre_masc_plur_i" , "ях", "jAх" ]
+
+  - id: "mova-m_39_i" #чоловік
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "", "" ]
+      - [ "noun_gen_masc_sing_i" , "а", "А" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing_i" , "а", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "у", "u" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "и", "I" ]
+      - [ "noun_gen_masc_plur_i" , "", "" ]
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "", "" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Aх" ]
+
+  - id: "mova-m_40_i" #тато
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing_i" , "о", "О" ]
+      - [ "noun_gen_masc_sing_i" , "а", "А" ]
+      - [ "noun_dat_masc_sing_i" , "у", "u" ]
+      - [ "noun_dat_masc_sing_i" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing_i" , "а", "A" ]
+      - [ "noun_ins_masc_sing_i" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing_i" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing_i" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing_i" , "у", "u" ]
+      - [ "noun_nom_masc_plur_i" , "и", "I" ]
+      - [ "noun_gen_masc_plur_i" , "ів", "іМ" ]
+      - [ "noun_gen_masc_plur_i" , "", "" ]
+      - [ "noun_dat_masc_plur_i" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur_i" , "ів", "іМ" ]
+      - [ "noun_acc_masc_plur_i" , "", "" ]
+      - [ "noun_ins_masc_plur_i" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur_i" , "ах", "Aх" ]
+
+  - id: "mova-m_41" #шинок
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JіV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ів", "JіV" ]
+      - [ "noun_acc_masc_plur" , "и", "I" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Aх" ]
+
+  - id: "mova-m_42" #верх
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JіV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "ів", "JіV" ]
+      - [ "noun_acc_masc_plur" , "и", "I" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Aх" ]
+
+  - id: "mova-m_43" #піл
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JіV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "I" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Aх" ]
+
+  - id: "mova-m_44" #вус
+  - id: "mova-m_45" #овес
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "А" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "а", "А" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JіV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "а", "А" ]
+      - [ "noun_acc_masc_plur" , "и", "I" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Aх" ]
+
+  - id: "mova-m_46" #пліт
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "А" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JіV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Aх" ]
+
+  - id: "mova-m_47" #лад 
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JіV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Aх" ]
+
+  - id: "mova-m_48" #плід
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "а", "А" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JіV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Aх" ]
+
+  - id: "mova-m_49" #знак
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "у", "u" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JіV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Aх" ]
+
+  - id: "mova-m_50" #піст
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "у", "u" ]
+      - [ "noun_dat_masc_sing" , "ові", "OVi" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_ins_masc_sing" , "ом", "Om" ]
+      - [ "noun_pre1_masc_sing" , "і", "Jі" ]
+      - [ "noun_pre1_masc_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_masc_sing" , "у", "u" ]
+      - [ "noun_nom_masc_plur" , "и", "I" ]
+      - [ "noun_gen_masc_plur" , "ів", "JіV" ]
+      - [ "noun_dat_masc_plur" , "ам", "Am" ]
+      - [ "noun_acc_masc_plur" , "и", "І" ]
+      - [ "noun_ins_masc_plur" , "ами", "AmI" ]
+      - [ "noun_pre_masc_plur" , "ах", "Aх" ]
+
+#NEUTRAL NOUNS
+
+  - id: "mova-n_1" #тіло, чадо
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_acc_neut_sing" , "о", "О" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "а", "А" ]
+      - [ "noun_ins_neut_plur" , "ами", "AmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_1" #тіло, чадо
+  - id: "mova-n_1рр(мн.)" #лігво
+  - id: "mova-n_1мн." #чудо
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_acc_neut_sing" , "о", "О" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "а", "А" ]
+      - [ "noun_ins_neut_plur" , "ами", "AmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_2" #ікло
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_acc_neut_sing" , "о", "О" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "ів", "JіV" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "а", "А" ]
+      - [ "noun_ins_neut_plur" , "ами", "AmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_3" #коліно
+  - id: "mova-n_3ооо(мн.)" #крило
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_acc_neut_sing" , "о", "О" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "а", "А" ]
+      - [ "noun_ins_neut_plur" , "ами", "AmI" ]
+      - [ "noun_ins_neut_plur" , "ьми", "%mI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_4" #ліжко
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_acc_neut_sing" , "о", "О" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "у", "u" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "а", "А" ]
+      - [ "noun_ins_neut_plur" , "ами", "AmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_5" #гусятко
+  - id: "mova-n_5рр(мн.)" #бабисько
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_dat_neut_sing" , "ові", "OVi" ]
+      - [ "noun_acc_neut_sing" , "о", "О" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "у", "u" ]
+      - [ "noun_pre1_neut_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "а", "А" ]
+      - [ "noun_ins_neut_plur" , "ами", "AmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_6" #ладо
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_dat_neut_sing" , "ові", "OVi" ]
+      - [ "noun_acc_neut_sing" , "о", "О" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre1_neut_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "", "" ]
+      - [ "noun_ins_neut_plur" , "ами", "AmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_7" #лихо
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_dat_neut_sing" , "ові", "OVi" ]
+      - [ "noun_acc_neut_sing" , "о", "О" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "у", "u" ]
+      - [ "noun_pre1_neut_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "a", "A" ]
+      - [ "noun_ins_neut_plur" , "ами", "AmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_8" #oчкó
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_acc_neut_sing" , "о", "О" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "у", "u" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "и", "І" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "и", "І" ]
+      - [ "noun_ins_neut_plur" , "ами", "AmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_9" #óчко
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_acc_neut_sing" , "о", "О" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "у", "u" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "и", "І" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "и", "І" ]
+      - [ "noun_acc_neut_plur" , "а", "А" ]
+      - [ "noun_ins_neut_plur" , "ами", "AmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_10" #вухо
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_acc_neut_sing" , "о", "О" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "i", "Ji" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_nom_neut_plur" , "i", "Ji" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_gen_neut_plur" , "ей", "Ej" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "a", "A" ]
+      - [ "noun_acc_neut_plur" , "i", "Ji" ]
+      - [ "noun_ins_neut_plur" , "ами", "AmI" ]
+      - [ "noun_ins_neut_plur" , "има", "Іmа" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_11" #око
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_acc_neut_sing" , "о", "О" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "i", "Ji" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "i", "Ji" ]
+      - [ "noun_gen_neut_plur" , "ей", "Ej" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "i", "Ji" ]
+      - [ "noun_ins_neut_plur" , "има", "Іmа" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_12" #лице
+  - id: "mova-n_12рр.(мн.)" #сонце
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "е", "Е" ]
+      - [ "noun_gen_neut_sing" , "я", "JA" ]
+      - [ "noun_dat_neut_sing" , "ю", "Ju" ]
+      - [ "noun_acc_neut_sing" , "е", "E" ]
+      - [ "noun_ins_neut_sing" , "ем", "Em" ]
+      - [ "noun_pre1_neut_sing" , "i", "Ji" ]
+      - [ "noun_pre2_neut_sing" , "ю", "Ju" ]
+      - [ "noun_nom_neut_plur" , "я", "JA" ]
+      - [ "noun_gen_neut_plur" , "ь", "%" ]
+      - [ "noun_dat_neut_plur" , "ям", "JAm" ]
+      - [ "noun_acc_neut_plur" , "я", "JA" ]
+      - [ "noun_ins_neut_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_neut_plur" , "ях", "jAх" ]
+
+  - id: "mova-n_13" #серце
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "е", "Е" ]
+      - [ "noun_gen_neut_sing" , "я", "JA" ]
+      - [ "noun_dat_neut_sing" , "ю", "Ju" ]
+      - [ "noun_dat_neut_sing" , "еві", "EVi" ]
+      - [ "noun_acc_neut_sing" , "е", "E" ]
+      - [ "noun_ins_neut_sing" , "ем", "Em" ]
+      - [ "noun_pre1_neut_sing" , "i", "Ji" ]
+      - [ "noun_pre1_neut_sing" , "еві", "EVi" ]
+      - [ "noun_pre2_neut_sing" , "ю", "Ju" ]
+      - [ "noun_nom_neut_plur" , "я", "JA" ]
+      - [ "noun_gen_neut_plur" , "ь", "%" ]
+      - [ "noun_dat_neut_plur" , "aм", "Am" ]
+      - [ "noun_acc_neut_plur" , "я", "JA" ]
+      - [ "noun_ins_neut_plur" , "aми", "AmI" ]
+      - [ "noun_pre_neut_plur" , "aх", "Aх" ]
+
+  - id: "mova-n_14" #море
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "е", "Е" ]
+      - [ "noun_gen_neut_sing" , "я", "JA" ]
+      - [ "noun_dat_neut_sing" , "ю", "Ju" ]
+      - [ "noun_acc_neut_sing" , "е", "E" ]
+      - [ "noun_ins_neut_sing" , "ем", "Em" ]
+      - [ "noun_pre1_neut_sing" , "i", "Ji" ]
+      - [ "noun_pre2_neut_sing" , "ю", "Ju" ]
+      - [ "noun_nom_neut_plur" , "я", "JA" ]
+      - [ "noun_gen_neut_plur" , "ів", "JiV" ]
+      - [ "noun_dat_neut_plur" , "ям", "JAm" ]
+      - [ "noun_acc_neut_plur" , "я", "JA" ]
+      - [ "noun_ins_neut_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_neut_plur" , "ях", "jAх" ]
+
+  - id: "mova-n_15" #поля
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "е", "Е" ]
+      - [ "noun_gen_neut_sing" , "я", "JA" ]
+      - [ "noun_dat_neut_sing" , "ю", "Ju" ]
+      - [ "noun_acc_neut_sing" , "е", "E" ]
+      - [ "noun_ins_neut_sing" , "ем", "Em" ]
+      - [ "noun_pre1_neut_sing" , "i", "Ji" ]
+      - [ "noun_pre2_neut_sing" , "ю", "Ju" ]
+      - [ "noun_nom_neut_plur" , "я", "JA" ]
+      - [ "noun_gen_neut_plur" , "ів", "JiV" ]
+      - [ "noun_gen_neut_plur" , "ь", "%" ]
+      - [ "noun_dat_neut_plur" , "ям", "JAm" ]
+      - [ "noun_acc_neut_plur" , "я", "JA" ]
+      - [ "noun_ins_neut_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_neut_plur" , "ях", "jAх" ]
+
+  - id: "mova-n_16" #щупальце
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "е", "Е" ]
+      - [ "noun_gen_neut_sing" , "я", "JA" ]
+      - [ "noun_dat_neut_sing" , "ю", "Ju" ]
+      - [ "noun_acc_neut_sing" , "е", "E" ]
+      - [ "noun_ins_neut_sing" , "ем", "Em" ]
+      - [ "noun_pre1_neut_sing" , "i", "Ji" ]
+      - [ "noun_pre2_neut_sing" , "ю", "Ju" ]
+      - [ "noun_nom_neut_plur" , "я", "JA" ]
+      - [ "noun_nom_neut_plur" , "і", "Jі" ]
+      - [ "noun_gen_neut_plur" , "ь", "%" ]
+      - [ "noun_gen_neut_plur" , "ів", "JiV" ]
+      - [ "noun_dat_neut_plur" , "ям", "JAm" ]
+      - [ "noun_acc_neut_plur" , "я", "JA" ]
+      - [ "noun_acc_neut_plur" , "і", "Jі" ]
+      - [ "noun_ins_neut_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_neut_plur" , "ях", "jAх" ]
+
+  - id: "mova-n_17" #явище, чудище
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "е", "Е" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_acc_neut_sing" , "е", "Е" ]
+      - [ "noun_ins_neut_sing" , "ем", "Еm" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "а", "А" ]
+      - [ "noun_ins_neut_plur" , "ами", "AmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_18" #плече
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "е", "Е" ]
+      - [ "noun_gen_neut_sing" , "а", "А" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_acc_neut_sing" , "е", "Е" ]
+      - [ "noun_ins_neut_sing" , "ем", "Еm" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "і", "Jі" ]
+      - [ "noun_gen_neut_plur" , "ей", "Ej" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Am" ]
+      - [ "noun_acc_neut_plur" , "і", "Jі" ]
+      - [ "noun_ins_neut_plur" , "има", "ІmА" ]
+      - [ "noun_pre_neut_plur" , "ах", "Aх" ]
+
+  - id: "mova-n_19" #придане
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "е", "Е" ]
+      - [ "noun_gen_neut_sing" , "ого", "оgo" ]
+      - [ "noun_dat_neut_sing" , "ому", "Omu" ]
+      - [ "noun_acc_neut_sing" , "е", "Е" ]
+      - [ "noun_ins_neut_sing" , "им", "Im" ]
+      - [ "noun_pre1_neut_sing" , "ому", "Omu" ]
+      - [ "noun_pre1_neut_sing" , "ім", "іm" ]
+      - [ "noun_pre2_neut_sing" , "ому", "Omu" ]
+      - [ "noun_nom_neut_plur" , "і", "Jі" ]
+      - [ "noun_gen_neut_plur" , "их", "Iх" ]
+      - [ "noun_dat_neut_plur" , "им", "Im" ]
+      - [ "noun_acc_neut_plur" , "і", "Jі" ]
+      - [ "noun_ins_neut_plur" , "ими", "ІmI" ]
+      - [ "noun_pre_neut_plur" , "их", "Iх" ]
+
+  - id: "mova-n_20" #житіє
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "е", "Е" ]
+      - [ "noun_gen_neut_sing" , "я", "JA" ]
+      - [ "noun_dat_neut_sing" , "ю", "Ju" ]
+      - [ "noun_acc_neut_sing" , "є", "jЕ" ]
+      - [ "noun_ins_neut_sing" , "єм", "jEm" ]
+      - [ "noun_pre1_neut_sing" , "ї", "Ji" ]
+      - [ "noun_pre2_neut_sing" , "ю", "Ju" ]
+      - [ "noun_nom_neut_plur" , "я", "JA" ]
+      - [ "noun_gen_neut_plur" , "й", "j" ]
+      - [ "noun_dat_neut_plur" , "ям", "JAm" ]
+      - [ "noun_acc_neut_plur" , "я", "JA" ]
+      - [ "noun_ins_neut_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_neut_plur" , "ях", "jAх" ]
+
+  - id: "mova-n_21" #майбутнє
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "є", "jЕ" ]
+      - [ "noun_gen_neut_sing" , "ього", "%OgO" ]
+      - [ "noun_dat_neut_sing" , "ьому", "%Omu" ]
+      - [ "noun_acc_neut_sing" , "є", "jЕ" ]
+      - [ "noun_ins_neut_sing" , "ім", "im" ]
+      - [ "noun_pre1_neut_sing" , "ьому", "%Omu" ]
+      - [ "noun_pre1_neut_sing" , "ім", "im" ]
+      - [ "noun_pre2_neut_sing" , "ьому", "%Omu" ]
+      - [ "noun_nom_neut_plur" , "і", "i" ]
+      - [ "noun_gen_neut_plur" , "іх", "ix" ]
+      - [ "noun_dat_neut_plur" , "ім", "im" ]
+      - [ "noun_acc_neut_plur" , "і", "i" ]
+      - [ "noun_ins_neut_plur" , "іми", "imI" ]
+      - [ "noun_pre_neut_plur" , "іх", "ix" ]
+
+  - id: "mova-n_22" #руча
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "а", "А" ]
+      - [ "noun_gen_neut_sing" , "и", "І" ]
+      - [ "noun_dat_neut_sing" , "і", "Jі" ]
+      - [ "noun_acc_neut_sing" , "а", "А" ]
+      - [ "noun_ins_neut_sing" , "ам", "Аm" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "і", "Jі" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Аm" ]
+      - [ "noun_acc_neut_plur" , "а", "А" ]
+      - [ "noun_ins_neut_plur" , "ами", "АmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Аx" ]
+
+  - id: "mova-n_22_і" #дівча
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "а", "А" ]
+      - [ "noun_gen_neut_sing" , "и", "І" ]
+      - [ "noun_dat_neut_sing" , "і", "Jі" ]
+      - [ "noun_acc_neut_sing" , "а", "А" ]
+      - [ "noun_ins_neut_sing" , "ам", "Аm" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "і", "Jі" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Аm" ]
+      - [ "noun_acc_neut_plur" , "", "" ]
+      - [ "noun_ins_neut_plur" , "ами", "АmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Аx" ]
+
+  - id: "mova-n_22зз(мн.)_і" #дівча
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "а", "А" ]
+      - [ "noun_gen_neut_sing" , "и", "І" ]
+      - [ "noun_dat_neut_sing" , "і", "Jі" ]
+      - [ "noun_acc_neut_sing" , "а", "А" ]
+      - [ "noun_ins_neut_sing" , "ам", "Аm" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "і", "Jі" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Аm" ]
+      - [ "noun_acc_neut_plur" , "", "" ]
+      - [ "noun_acc_neut_plur" , "а", "А" ]
+      - [ "noun_ins_neut_plur" , "ами", "АmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Аx" ]
+
+  - id: "mova-n_23" #осердя
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "я", "jА" ]
+      - [ "noun_gen_neut_sing" , "я", "JA" ]
+      - [ "noun_dat_neut_sing" , "ю", "Ju" ]
+      - [ "noun_acc_neut_sing" , "я", "JA" ]
+      - [ "noun_ins_neut_sing" , "ям", "jАm" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "ю", "Ju" ]
+      - [ "noun_nom_neut_plur" , "я", "jА" ]
+      - [ "noun_gen_neut_plur" , "ь", "%" ]
+      - [ "noun_dat_neut_plur" , "ям", "jАm" ]
+      - [ "noun_acc_neut_plur" , "я", "JA" ]
+      - [ "noun_ins_neut_plur" , "ями", "jАmI" ]
+      - [ "noun_pre_neut_plur" , "ях", "jАx" ]
+
+  - id: "mova-n_24" #обличчя
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "я", "jА" ]
+      - [ "noun_gen_neut_sing" , "я", "JA" ]
+      - [ "noun_dat_neut_sing" , "ю", "Ju" ]
+      - [ "noun_acc_neut_sing" , "я", "JA" ]
+      - [ "noun_ins_neut_sing" , "ям", "jАm" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "ю", "Ju" ]
+      - [ "noun_nom_neut_plur" , "я", "jА" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ям", "jАm" ]
+      - [ "noun_acc_neut_plur" , "я", "JA" ]
+      - [ "noun_ins_neut_plur" , "ями", "jАmI" ]
+      - [ "noun_pre_neut_plur" , "ях", "jАx" ]
+
+  - id: "mova-n_25" #життя
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "я", "jА" ]
+      - [ "noun_gen_neut_sing" , "я", "JA" ]
+      - [ "noun_dat_neut_sing" , "ю", "Ju" ]
+      - [ "noun_acc_neut_sing" , "я", "JA" ]
+      - [ "noun_ins_neut_sing" , "ям", "jАm" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "ю", "Ju" ]
+      - [ "noun_nom_neut_plur" , "я", "jА" ]
+      - [ "noun_gen_neut_plur" , "ів", "JiV" ]
+      - [ "noun_dat_neut_plur" , "ям", "jАm" ]
+      - [ "noun_acc_neut_plur" , "я", "JA" ]
+      - [ "noun_ins_neut_plur" , "ями", "jАmI" ]
+      - [ "noun_pre_neut_plur" , "ях", "jАx" ]
+
+  - id: "mova-n_26" #подвір'я
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "я", "jА" ]
+      - [ "noun_gen_neut_sing" , "я", "JA" ]
+      - [ "noun_dat_neut_sing" , "ю", "Ju" ]
+      - [ "noun_acc_neut_sing" , "я", "JA" ]
+      - [ "noun_ins_neut_sing" , "ям", "jАm" ]
+      - [ "noun_pre1_neut_sing" , "ї", "jі" ]
+      - [ "noun_pre2_neut_sing" , "ю", "Ju" ]
+      - [ "noun_nom_neut_plur" , "я", "jА" ]
+      - [ "noun_gen_neut_plur" , "їв", "JiV" ]
+      - [ "noun_dat_neut_plur" , "ям", "jАm" ]
+      - [ "noun_acc_neut_plur" , "я", "JA" ]
+      - [ "noun_ins_neut_plur" , "ями", "jАmI" ]
+      - [ "noun_pre_neut_plur" , "ях", "jАx" ]
+
+  - id: "mova-n_27" #реченя
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "я", "jА" ]
+      - [ "noun_gen_neut_sing" , "и", "І" ]
+      - [ "noun_dat_neut_sing" , "і", "Jі" ]
+      - [ "noun_acc_neut_sing" , "я", "JA" ]
+      - [ "noun_ins_neut_sing" , "ям", "jАm" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "і", "Jі" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Аm" ]
+      - [ "noun_acc_neut_plur" , "а", "A" ]
+      - [ "noun_ins_neut_plur" , "ами", "АmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Аx" ]
+
+  - id: "mova-n_27_і" #немовля
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "я", "jА" ]
+      - [ "noun_gen_neut_sing" , "и", "І" ]
+      - [ "noun_dat_neut_sing" , "і", "Jі" ]
+      - [ "noun_acc_neut_sing" , "я", "JA" ]
+      - [ "noun_ins_neut_sing" , "ям", "jАm" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "і", "Jі" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Аm" ]
+      - [ "noun_acc_neut_plur" , "", "" ]
+      - [ "noun_ins_neut_plur" , "ами", "АmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Аx" ]
+
+  - id: "mova-n_27зз(мн.)_і" #теля
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "я", "jА" ]
+      - [ "noun_gen_neut_sing" , "и", "І" ]
+      - [ "noun_dat_neut_sing" , "і", "Jі" ]
+      - [ "noun_acc_neut_sing" , "я", "JA" ]
+      - [ "noun_ins_neut_sing" , "ям", "jАm" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "і", "Jі" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Аm" ]
+      - [ "noun_acc_neut_plur" , "", "" ]
+      - [ "noun_acc_neut_plur" , "а", "А" ]
+      - [ "noun_ins_neut_plur" , "ами", "АmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Аx" ]
+
+  - id: "mova-n_28" #ім'я
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "я", "jА" ]
+      - [ "noun_gen_neut_sing" , "і", "Jі" ]
+      - [ "noun_gen_neut_sing" , "я", "JA" ]
+      - [ "noun_dat_neut_sing" , "і", "Jі" ]
+      - [ "noun_acc_neut_sing" , "я", "JA" ]
+      - [ "noun_ins_neut_sing" , "ем", "Em" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "і", "Jі" ]
+      - [ "noun_nom_neut_plur" , "а", "А" ]
+      - [ "noun_gen_neut_plur" , "", "" ]
+      - [ "noun_dat_neut_plur" , "ам", "Аm" ]
+      - [ "noun_acc_neut_plur" , "а", "A" ]
+      - [ "noun_ins_neut_plur" , "ами", "АmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Аx" ]
+
+  - id: "mova-n_29" #вим'я
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "я", "jА" ]
+      - [ "noun_gen_neut_sing" , "і", "Jі" ]
+      - [ "noun_gen_neut_sing" , "я", "JA" ]
+      - [ "noun_dat_neut_sing" , "і", "Jі" ]
+      - [ "noun_dat_neut_sing" , "ю", "Ju" ]
+      - [ "noun_acc_neut_sing" , "я", "JA" ]
+      - [ "noun_ins_neut_sing" , "ем", "Em" ]
+      - [ "noun_ins_neut_sing" , "ям", "JAm" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre1_neut_sing" , "ї", "jі" ]
+      - [ "noun_pre2_neut_sing" , "ю", "Ju" ]
+      - [ "noun_nom_neut_plur" , "я", "JA" ]
+      - [ "noun_gen_neut_plur" , "їв", "JiV" ]
+      - [ "noun_dat_neut_plur" , "ям", "jАm" ]
+      - [ "noun_acc_neut_plur" , "я", "JA" ]
+      - [ "noun_ins_neut_plur" , "ями", "jАmI" ]
+      - [ "noun_pre_neut_plur" , "ях", "jАx" ]
+
+  - id: "mova-n_30" #покриття
+  - id: "mova-n_30мн." #весілля
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "я", "jА" ]
+      - [ "noun_gen_neut_sing" , "я", "JA" ]
+      - [ "noun_dat_neut_sing" , "ю", "Ju" ]
+      - [ "noun_acc_neut_sing" , "я", "JA" ]
+      - [ "noun_ins_neut_sing" , "ям", "JAm" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre2_neut_sing" , "ю", "Ju" ]
+      - [ "noun_nom_neut_plur" , "я", "JA" ]
+      - [ "noun_gen_neut_plur" , "iв", "JiV" ]
+      - [ "noun_gen_neut_plur" , "ь", "%" ]
+      - [ "noun_dat_neut_plur" , "ям", "jАm" ]
+      - [ "noun_acc_neut_plur" , "я", "JA" ]
+      - [ "noun_ins_neut_plur" , "ями", "jАmI" ]
+      - [ "noun_pre_neut_plur" , "ях", "jАx" ]
+
+  - id: "mova-n_31" #сонько
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "A" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_dat_neut_sing" , "ові", "OVi" ]
+      - [ "noun_acc_neut_sing" , "о", "O" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "у", "u" ]
+      - [ "noun_pre1_neut_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "и", "I" ]
+      - [ "noun_gen_neut_plur" , "iв", "JiV" ]
+      - [ "noun_dat_neut_plur" , "ам", "Аm" ]
+      - [ "noun_acc_neut_plur" , "ів", "JiV" ]
+      - [ "noun_ins_neut_plur" , "ами", "АmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Аx" ]
+
+  - id: "mova-n_32" #ракло
+    lemma: "noun_nom_neut_sing"
+    endforms:
+      - [ "noun_nom_neut_sing" , "о", "О" ]
+      - [ "noun_gen_neut_sing" , "а", "A" ]
+      - [ "noun_dat_neut_sing" , "у", "u" ]
+      - [ "noun_dat_neut_sing" , "ові", "OVi" ]
+      - [ "noun_acc_neut_sing" , "о", "O" ]
+      - [ "noun_ins_neut_sing" , "ом", "Om" ]
+      - [ "noun_pre1_neut_sing" , "і", "Jі" ]
+      - [ "noun_pre1_neut_sing" , "ові", "OVi" ]
+      - [ "noun_pre2_neut_sing" , "у", "u" ]
+      - [ "noun_nom_neut_plur" , "и", "I" ]
+      - [ "noun_gen_neut_plur" , "iв", "JiV" ]
+      - [ "noun_dat_neut_plur" , "ам", "Аm" ]
+      - [ "noun_acc_neut_plur" , "ів", "JiV" ]
+      - [ "noun_ins_neut_plur" , "ами", "АmI" ]
+      - [ "noun_pre_neut_plur" , "ах", "Аx" ]
+
+#FEMININE NOUNS
+
+  - id: "mova-f-1" #парта, жаба
+  - id: "vesum-n10.p1" #парта
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "A" ]
+      - [ "noun_gen_femn_sing" , "и", "I" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "ою", "Oju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "и", "I" ]
+      - [ "noun_gen_femn_plur" , "", "" ]
+      - [ "noun_dat_femn_plur" , "ам", "Am" ]
+      - [ "noun_acc_femn_plur" , "и", "І" ]
+      - [ "noun_acc_femn_plur" , "", "" ]
+      - [ "noun_ins_femn_plur" , "ами", "AmI" ]
+      - [ "noun_pre_femn_plur" , "ах", "Ax" ]
+
+  - id: "mova-f-1зз" #щока
+  - id: "mova-f-1мн." #хата
+  - id: "mova-f-1рр(мн.)" #війна
+  - id: "mova-f-1ррр(мн.)" #плахта
+  - id: "mova-f-1рррр(мн.)" #крихта
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "A" ]
+      - [ "noun_gen_femn_sing" , "и", "I" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "ою", "Oju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "и", "I" ]
+      - [ "noun_gen_femn_plur" , "", "" ]
+      - [ "noun_dat_femn_plur" , "ам", "Am" ]
+      - [ "noun_acc_femn_plur" , "и", "І" ]
+      - [ "noun_ins_femn_plur" , "ами", "AmI" ]
+      - [ "noun_pre_femn_plur" , "ах", "Ax" ]
+
+  - id: "mova-f-2" #масть, свість
+  - id: "mova-f-2мм" #вісь
+  - id: "mova-f-2мн." #волость
+  - id: "mova-f-2рр" #грязь
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "ь", "%" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "ь", "%" ]
+      - [ "noun_ins_femn_sing" , "ю", "Ju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ей", "Ej" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_acc_femn_plur" , "ей", "Ej" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-3" #скеля, ткаля
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "ею", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ь", "%" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_acc_femn_plur" , "ь", "%" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-3мн." #вишня
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "ею", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ь", "%" ]
+      - [ "noun_gen_femn_plur" , "і", "Jі" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-4" #фальш, покруч
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "", "" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "", "" ]
+      - [ "noun_ins_femn_sing" , "ю", "Ju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ей", "Ej" ]
+      - [ "noun_dat_femn_plur" , "ам", "Am" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_acc_femn_plur" , "ей", "Ej" ]
+      - [ "noun_ins_femn_plur" , "ами", "AmI" ]
+      - [ "noun_pre_femn_plur" , "ах", "Ax" ]
+
+  - id: "mova-f-5" #ідея, змія
+  - id: "mova-f-5рр(мн.)" #сім'я
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "ї", "Ji" ]
+      - [ "noun_dat_femn_sing" , "ї", "Ji" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "єю", "jEju" ]
+      - [ "noun_pre_femn_sing" , "ї", "Ji" ]
+      - [ "noun_nom_femn_plur" , "ї", "Ji" ]
+      - [ "noun_gen_femn_plur" , "й", "j" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "ї", "Ji" ]
+      - [ "noun_acc_femn_plur" , "й", "j" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-6" #кутя, гостя
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "ею", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ей", "Еj" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_acc_femn_plur" , "ей", "Еj" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-6р(мн.)" #баддя
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "ею", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "й", "j" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-7" #верф, твар
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "", "" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "", "" ]
+      - [ "noun_ins_femn_sing" , "ю", "Ju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ей", "Еj" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_acc_femn_plur" , "ей", "Еj" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-7мм" #кров
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "", "" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "", "" ]
+      - [ "noun_ins_femn_sing" , "ю", "Ju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ей", "Еj" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-8" #вежа, теща
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "А" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "eю", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "", "" ]
+      - [ "noun_dat_femn_plur" , "aм", "Am" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_acc_femn_plur" , "", "" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-8мн." #тисяча
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "А" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "eю", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "", "" ]
+      - [ "noun_dat_femn_plur" , "aм", "Am" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-9" #буря, тетеря
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "eю", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "", "" ]
+      - [ "noun_dat_femn_plur" , "aм", "Am" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_acc_femn_plur" , "", "" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-10" #миша
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "A" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "eю", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ей", "Ej" ]
+      - [ "noun_dat_femn_plur" , "aм", "Am" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_acc_femn_plur" , "ей", "Ej" ]
+      - [ "noun_ins_femn_plur" , "aми", "AmI" ]
+      - [ "noun_pre_femn_plur" , "aх", "Ax" ]
+
+  - id: "mova-f-11" #майя
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "ї", "Ji" ]
+      - [ "noun_dat_femn_sing" , "ї", "Ji" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "єю", "jEju" ]
+      - [ "noun_pre_femn_sing" , "ї", "Ji" ]
+      - [ "noun_nom_femn_plur" , "ї", "Ji" ]
+      - [ "noun_gen_femn_plur" , "", "" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "ї", "Ji" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-12" #матуся
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "eю", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ь", "%" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_acc_femn_plur" , "ь", "%" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-13" #губа, баба
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "A" ]
+      - [ "noun_gen_femn_sing" , "и", "I" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "ою", "Oju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "и", "I" ]
+      - [ "noun_gen_femn_plur" , "", "" ]
+      - [ "noun_gen_femn_plur" , "ів", "JіV" ]
+      - [ "noun_dat_femn_plur" , "ам", "Am" ]
+      - [ "noun_acc_femn_plur" , "и", "І" ]
+      - [ "noun_acc_femn_plur" , "", "" ]
+      - [ "noun_acc_femn_plur" , "ів", "JіV" ]
+      - [ "noun_ins_femn_plur" , "ами", "AmI" ]
+      - [ "noun_pre_femn_plur" , "ах", "Ax" ]
+
+  - id: "mova-f-13мн." #мама
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "A" ]
+      - [ "noun_gen_femn_sing" , "и", "I" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "ою", "Oju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "и", "I" ]
+      - [ "noun_gen_femn_plur" , "", "" ]
+      - [ "noun_gen_femn_plur" , "ів", "JіV" ]
+      - [ "noun_dat_femn_plur" , "ам", "Am" ]
+      - [ "noun_acc_femn_plur" , "и", "І" ]
+      - [ "noun_acc_femn_plur" , "ів", "JіV" ]
+      - [ "noun_ins_femn_plur" , "ами", "AmI" ]
+      - [ "noun_pre_femn_plur" , "ах", "Ax" ]
+
+  - id: "mova-f-14" #ніздря
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "eю", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ів", "JіV" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+#ACHTUNG ADD f-15
+
+  - id: "mova-f-16" #розкіш
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "", "" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і"", "i" ]
+      - [ "noun_acc_femn_sing" , "", "" ]
+      - [ "noun_ins_femn_sing" , "ю", "Ju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ів", "JіV" ]
+      - [ "noun_dat_femn_plur" , "ам", "Am" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_ins_femn_plur" , "ами", "AmI" ]
+      - [ "noun_pre_femn_plur" , "ах", "Ax" ]
+
+  - id: "mova-f-17" #нічия
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "єї", "jEji" ]
+      - [ "noun_dat_femn_sing" , "їй", "jij" ]
+      - [ "noun_acc_femn_sing" , "ю", "ji" ]
+      - [ "noun_ins_femn_sing" , "єю", "jEju" ]
+      - [ "noun_pre_femn_sing" , "їй", "jij" ]
+      - [ "noun_nom_femn_plur" , "ї", "Ji" ]
+      - [ "noun_gen_femn_plur" , "їх", "jіx" ]
+      - [ "noun_dat_femn_plur" , "їм", "jim" ]
+      - [ "noun_acc_femn_plur" , "ї", "Ji" ]
+      - [ "noun_ins_femn_plur" , "їми", "jimI" ]
+      - [ "noun_pre_femn_plur" , "їх", "jix" ]
+
+  - id: "mova-f-18" #пара
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "A" ]
+      - [ "noun_gen_femn_sing" , "и", "I" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "ою", "Oju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "и", "I" ]
+      - [ "noun_gen_femn_plur" , "ів", "JіV" ]
+      - [ "noun_dat_femn_plur" , "ам", "Am" ]
+      - [ "noun_acc_femn_plur" , "и", "І" ]
+      - [ "noun_ins_femn_plur" , "ами", "AmI" ]
+      - [ "noun_pre_femn_plur" , "ах", "Ax" ]
+
+  - id: "mova-f-19" #мати
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "и", "I" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "", "" ]
+      - [ "noun_ins_femn_sing" , "ю", "Ju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "и", "I" ]
+      - [ "noun_gen_femn_plur" , "ів", "JіV" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "ів", "JiV" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-20" #бородище, бабище
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "е", "Е" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "е", "Е" ]
+      - [ "noun_ins_femn_sing" , "ею", "Еju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "Jі" ]
+      - [ "noun_gen_femn_plur" , "", "" ]
+      - [ "noun_dat_femn_plur" , "ам", "Am" ]
+      - [ "noun_acc_femn_plur" , "", "" ]
+      - [ "noun_ins_femn_plur" , "ами", "AmI" ]
+      - [ "noun_pre_femn_plur" , "ах", "Ax" ]
+
+  - id: "mova-f-21" #легеня
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "ею", "Еju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "Jі" ]
+      - [ "noun_gen_femn_plur" , "ей", "Ej" ]
+      - [ "noun_gen_femn_plur" , "", "" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-22" #крива
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "JA" ]
+      - [ "noun_gen_femn_sing" , "ої", "оji" ]
+      - [ "noun_dat_femn_sing" , "ій", "ij" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "ою", "oju" ]
+      - [ "noun_pre_femn_sing" , "ій", "ij" ]
+      - [ "noun_nom_femn_plur" , "і", "Jі" ]
+      - [ "noun_gen_femn_plur" , "их", "Ix" ]
+      - [ "noun_dat_femn_plur" , "им", "Im" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_ins_femn_plur" , "ими", "ImI" ]
+      - [ "noun_pre_femn_plur" , "их", "Ix" ]
+
+  - id: "mova-f-23" #роділля
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "ею", "Еju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "Jі" ]
+      - [ "noun_gen_femn_plur" , "ей", "Ej" ]
+      - [ "noun_gen_femn_plur" , "", "" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_acc_femn_plur" , "ь", "%" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-24" #постіль
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "ь", "%" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "ь", "%" ]
+      - [ "noun_ins_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "ею", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ь", "%" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_ins_femn_plur" , "ями", "jAmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-25" #воша
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "А" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "eю", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ей", "Еj" ]
+      - [ "noun_dat_femn_plur" , "aм", "Am" ]
+      - [ "noun_acc_femn_plur" , "ей", "ej" ]
+      - [ "noun_ins_femn_plur" , "ами", "AmI" ]
+      - [ "noun_ins_femn_plur" , "има", "ImF" ]
+      - [ "noun_pre_femn_plur" , "ах", "Ax" ]
+
+  - id: "mova-f-26" #свиня
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "ею", "Еju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "Jі" ]
+      - [ "noun_gen_femn_plur" , "ей", "Ej" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "ей", "Ej" ]
+      - [ "noun_ins_femn_plur" , "ьми", "%mI" ]
+      - [ "noun_ins_femn_plur" , "ами", "AmI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+  - id: "mova-f-27" #парша
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "А" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "eю", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "ів", "JіV" ]
+      - [ "noun_dat_femn_plur" , "aм", "Am" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_ins_femn_plur" , "ами", "AmI" ]
+      - [ "noun_pre_femn_plur" , "ах", "Ax" ]
+
+  - id: "mova-f-27рр(мн.)" #брижа
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "А" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "eю", "Eju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "", "" ]
+      - [ "noun_gen_femn_plur" , "ів", "JіV" ]
+      - [ "noun_dat_femn_plur" , "aм", "Am" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_ins_femn_plur" , "ами", "AmI" ]
+      - [ "noun_pre_femn_plur" , "ах", "Ax" ]
+
+  - id: "mova-f-28" #сльоза
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "А" ]
+      - [ "noun_gen_femn_sing" , "и", "І" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "ою", "Оju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "i" ]
+      - [ "noun_gen_femn_plur" , "", "" ]
+      - [ "noun_dat_femn_plur" , "aм", "Am" ]
+      - [ "noun_acc_femn_plur" , "и", "І" ]
+      - [ "noun_ins_femn_plur" , "ами", "AmI" ]
+      - [ "noun_ins_femn_plur" , "ьми", "%mI" ]
+      - [ "noun_pre_femn_plur" , "ах", "Ax" ]
+
+  - id: "mova-f-29" #грудь
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "ь", "%" ]
+      - [ "noun_gen_femn_sing" , "і", "i" ]
+      - [ "noun_dat_femn_sing" , "і", "i" ]
+      - [ "noun_acc_femn_sing" , "ь", "%" ]
+      - [ "noun_ins_femn_sing" , "ю", "Ju" ]
+      - [ "noun_pre_femn_sing" , "і", "i" ]
+      - [ "noun_nom_femn_plur" , "і", "Jі" ]
+      - [ "noun_gen_femn_plur" , "ей", "Ej" ]
+      - [ "noun_dat_femn_plur" , "ям", "JAm" ]
+      - [ "noun_acc_femn_plur" , "і", "i" ]
+      - [ "noun_ins_femn_plur" , "ьми", "%mI" ]
+      - [ "noun_pre_femn_plur" , "ях", "jAx" ]
+
+#PLURALIA TANTUM
+
+ - id: "mova-pl-1" #оглядини, амніоти
+ - id: "mova-pl-1рр" #пришви
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "и", "І" ]
+      - [ "noun_gen_plur" , "", "" ]
+      - [ "noun_dat_plur" , "ам", "Am" ]
+      - [ "noun_acc_plur" , "и", "I" ]
+      - [ "noun_acc_plur" , "", "" ]
+      - [ "noun_ins_plur" , "ами", "AmI" ]
+      - [ "noun_pre_plur" , "ах", "Ax" ]
+
+- id: "mova-pl-2" #джинси, котинги
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "и", "І" ]
+      - [ "noun_gen_plur" , "ів", "JiV" ]
+      - [ "noun_dat_plur" , "ам", "Am" ]
+      - [ "noun_acc_plur" , "и", "I" ]
+      - [ "noun_acc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_plur" , "ами", "AmI" ]
+      - [ "noun_pre_plur" , "ах", "Ax" ]
+
+- id: "mova-pl-3" #рейтузи
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "и", "І" ]
+      - [ "noun_gen_plur" , "", "" ]
+      - [ "noun_gen_plur" , "ів", "JiV" ]
+      - [ "noun_dat_plur" , "ам", "Am" ]
+      - [ "noun_acc_plur" , "и", "I" ]
+      - [ "noun_ins_plur" , "ами", "AmI" ]
+      - [ "noun_pre_plur" , "ах", "Ax" ]
+
+- id: "mova-pl-4" #зубенята, молодята
+- id: "mova-pl-4рр" #ясла
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "а", "А" ]
+      - [ "noun_gen_plur" , "", "" ]
+      - [ "noun_dat_plur" , "ам", "Am" ]
+      - [ "noun_acc_plur" , "и", "I" ]
+      - [ "noun_acc_plur" , "", "" ]
+      - [ "noun_ins_plur" , "ами", "AmI" ]
+      - [ "noun_pre_plur" , "ах", "Ax" ]
+
+- id: "mova-pl-5" #сани
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "а", "А" ]
+      - [ "noun_gen_plur" , "ей", "Еj" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "и", "I" ]
+      - [ "noun_ins_plur" , "ями", "JAmI" ]
+      - [ "noun_ins_plur" , "ьми", "%mI" ]
+      - [ "noun_pre_plur" , "ах", "Ax" ]
+
+- id: "mova-pl-6" #перса
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "а", "А" ]
+      - [ "noun_gen_plur" , "ів", "JiV" ]
+      - [ "noun_dat_plur" , "ам", "Am" ]
+      - [ "noun_acc_plur" , "а", "I" ]
+      - [ "noun_ins_plur" , "ами", "AmI" ]
+      - [ "noun_pre_plur" , "ах", "Ax" ]
+
+- id: "mova-pl-7" #діти
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "и", "І" ]
+      - [ "noun_gen_plur" , "ей", "Еj" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "и", "I" ]
+      - [ "noun_acc_plur" , "ей", "Ej" ]
+      - [ "noun_ins_plur" , "ьми", "%mI" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+- id: "mova-pl-8" #гроші
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "ей", "Еj" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "ми", "mI" ]
+      - [ "noun_ins_plur" , "има", "ImA" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+- id: "mova-pl-9" #очиці
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "ь", "%" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "ями", "JAmI" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+- id: "mova-pl-10" #давильця
+- id: "mova-pl-10рр" #дрівця
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "я", "JА" ]
+      - [ "noun_gen_plur" , "ь", "%" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "я", "JA" ]
+      - [ "noun_acc_plur" , "ь", "%" ]
+      - [ "noun_ins_plur" , "ями", "JAmI" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+- id: "mova-pl-11" #розвальні
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "ей", "Ej" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "і", "Jj" ]
+      - [ "noun_acc_plur" , "ей", "Ej" ]
+      - [ "noun_ins_plur" , "ями", "JAmI" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+- id: "mova-pl-12" #щі
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "ів", "JiV" ]
+      - [ "noun_dat_plur" , "ам", "Am" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_acc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_plur" , "ами", "AmI" ]
+      - [ "noun_pre_plur" , "ах", "Ax" ]
+
+- id: "mova-pl-13" #джунглі, людці
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "ів", "JiV" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_acc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_plur" , "ями", "JAmI" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+- id: "mova-pl-14" #ноші
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_dat_plur" , "ам", "Am" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "ами", "AmI" ]
+      - [ "noun_pre_plur" , "ах", "Ax" ]
+
+- id: "mova-pl-15" #мощі
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "ей", "Еj" ]
+      - [ "noun_dat_plur" , "ам", "Am" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_acc_plur" , "ей", "Ej" ]
+      - [ "noun_ins_plur" , "ами", "AmI" ]
+      - [ "noun_pre_plur" , "ах", "Ax" ]
+
+- id: "mova-pl-16" #покої
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "ї", "Ji" ]
+      - [ "noun_gen_plur" , "їв", "JiV" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "ї", "Ji" ]
+      - [ "noun_acc_plur" , "їв", "JiV" ]
+      - [ "noun_ins_plur" , "ями", "JAmI" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+- id: "mova-pl-17" #кури
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "и", "І" ]
+      - [ "noun_gen_plur" , "ей", "Еj" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "и", "I" ]
+      - [ "noun_acc_plur" , "ей", "Ej" ]
+      - [ "noun_ins_plur" , "ми", "mI" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+- id: "mova-pl-18" #вакації, анамнії
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "ї", "Ji" ]
+      - [ "noun_gen_plur" , "й", "j" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "ї", "Ji" ]
+      - [ "noun_acc_plur" , "й", "j" ]
+      - [ "noun_ins_plur" , "ями", "JAmI" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+- id: "mova-pl-19" #озимі, нежуйні
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "их", "Іх" ]
+      - [ "noun_dat_plur" , "им", "Im" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_acc_plur" , "их", "Ix" ]
+      - [ "noun_ins_plur" , "ими", "ImI" ]
+      - [ "noun_pre_plur" , "их", "Ix" ]
+
+- id: "mova-pl-20" #граблі
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "ів", "JiV" ]
+      - [ "noun_gen_plur" , "ь", "%" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "ями", "JAmI" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+- id: "mova-pl-21" #двері
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "ей", "Ej" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "ми", "mI" ]
+      - [ "noun_ins_plur" , "има", "ІmА" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+- id: "mova-pl-22" #помиї
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "ї", "Ji" ]
+      - [ "noun_gen_plur" , "й", "j" ]
+      - [ "noun_gen_plur" , "їв", "JiV" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "ї", "Ji" ]
+      - [ "noun_ins_plur" , "ями", "JAmI" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+- id: "mova-pl-23" #ворота
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "а", "А" ]
+      - [ "noun_gen_plur" , "", "" ]
+      - [ "noun_dat_plur" , "ам", "Am" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "а", "F" ]
+      - [ "noun_ins_plur" , "ами", "AmI" ]
+      - [ "noun_ins_plur" , "ьми", "%mI" ]
+      - [ "noun_pre_plur" , "ах", "Ax" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+- id: "mova-pl-24" #гуслі
+    lemma: "noun_nom_plur"
+    endforms:
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "", "" ]
+      - [ "noun_dat_plur" , "ям", "JAm" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "ями", "JAmI" ]
+      - [ "noun_pre_plur" , "ях", "JAx" ]
+
+#PROPER NOUNS
+
+  - id: "HARMM_енко"
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ко", "kO" ]
+      - [ "noun_gen_masc_sing" , "ка", "kA" ]
+      - [ "noun_dat_masc_sing" , "ку", "ku" ]
+      - [ "noun_dat_masc_sing" , "кові", "kOV%ji" ]
+      - [ "noun_acc_masc_sing" , "ка", "kA" ]"
+      - [ "noun_ins_masc_sing" , "ком", "kOm" ]
+      - [ "noun_pre_masc_sing" , "ку", "ku" ]
+      - [ "noun_pre_masc_sing" , "кові", "kOV%ji" ]
+      - [ "noun_nom_masc_plur" , "ки", "kI" ]
+      - [ "noun_gen_masc_plur" , "ків", "k%jiV" ]
+      - [ "noun_dat_masc_plur" , "кам", "kAm" ]
+      - [ "noun_acc_masc_plur" , "ків", "k%jiV" ]
+      - [ "noun_ins_masc_plur" , "ками", "kAmI" ]
+      - [ "noun_pre_masc_plur" , "ках", "kAx" ]
+
+  - id: "FLенко"
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "ко", "kO" ]
+      - [ "noun_gen_femn_sing" , "ко", "kO" ]
+      - [ "noun_dat_femn_sing" , "ко", "kO" ]
+      - [ "noun_acc_femn_sing" , "ко", "kO" ]
+      - [ "noun_ins_femn_sing" , "ко", "kO" ]
+      - [ "noun_pre_femn_sing" , "ко", "kO" ]
+      - [ "noun_nom_femn_plur" , "ки", "kI" ]
+      - [ "noun_gen_femn_plur" , "ків", "k%jiV" ]
+      - [ "noun_dat_femn_plur" , "кам", "kAm" ]
+      - [ "noun_acc_femn_plur" , "ків", "k%jiV" ]
+      - [ "noun_ins_femn_plur" , "ками", "kAmI" ]
+      - [ "noun_pre_femn_plur" , "ках", "kAx" ]
+
+  - id: "HARDM_ко"
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ко", "kO" ]
+      - [ "noun_gen_masc_sing" , "ка", "kA" ]
+      - [ "noun_dat_masc_sing" , "ку", "ku" ]
+      - [ "noun_dat_masc_sing" , "кові", "kOV%ji" ]
+      - [ "noun_acc_masc_sing" , "ка", "kA" ]
+      - [ "noun_ins_masc_sing" , "ком", "kOm" ]
+      - [ "noun_pre_masc_sing" , "ку", "ku" ]
+      - [ "noun_pre_masc_sing" , "кові", "kOV%ji" ]
+      - [ "noun_nom_masc_plur" , "ки", "kI" ]
+      - [ "noun_gen_masc_plur" , "ків", "k%jiV" ]
+      - [ "noun_dat_masc_plur" , "кам", "kAm" ]
+      - [ "noun_acc_masc_plur" , "ків", "k%jiV" ]
+      - [ "noun_ins_masc_plur" , "ками", "kAmI" ]
+      - [ "noun_pre_masc_plur" , "ках", "kAx" ]
+
+  - id: "FLко"
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "ко", "kO" ]
+      - [ "noun_gen_femn_sing" , "ко", "kO" ]
+      - [ "noun_dat_femn_sing" , "ко", "kO" ]
+      - [ "noun_acc_femn_sing" , "ко", "kO" ]
+      - [ "noun_ins_femn_sing" , "ко", "kO" ]
+      - [ "noun_pre_femn_sing" , "ко", "kO" ]
+      - [ "noun_nom_femn_plur" , "ки", "kI" ]
+      - [ "noun_gen_femn_plur" , "ків", "k%jiV" ]
+      - [ "noun_dat_femn_plur" , "кам", "kAm" ]
+      - [ "noun_acc_femn_plur" , "ків", "k%jiV" ]
+      - [ "noun_ins_femn_plur" , "ками", "kAmI" ]
+      - [ "noun_pre_femn_plur" , "ках", "kAx" ]
+
+  - id: "HARDM_ич"
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ич", "It&S" ]
+      - [ "noun_gen_masc_sing" , "ича", "It&SA" ]
+      - [ "noun_dat_masc_sing" , "ичу", "It&Su" ]
+      - [ "noun_acc_masc_sing" , "ича", "It&SA" ]
+      - [ "noun_ins_masc_sing" , "ичем", "It&SEm" ]
+      - [ "noun_pre_masc_sing" , "ичу", "It&Su" ]
+      - [ "noun_nom_masc_plur" , "чі", "t&Si" ]
+      - [ "noun_gen_masc_plur" , "чів", "t&S%jiV" ]
+      - [ "noun_dat_masc_plur" , "чам", "t&SAm" ]
+      - [ "noun_acc_masc_plur" , "чів", "t&S%jiV" ]
+      - [ "noun_ins_masc_plur" , "чами", "t&SAmI" ]
+      - [ "noun_pre_masc_plur" , "чах", "t&SAx" ]
+
+  - id: "FLич"
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "ич", "It&S" ]
+      - [ "noun_gen_femn_sing" , "ич", "It&S" ]
+      - [ "noun_dat_femn_sing" , "ич", "It&S" ]
+      - [ "noun_acc_femn_sing" , "ич", "It&S" ]
+      - [ "noun_ins_femn_sing" , "ич", "It&S" ]
+      - [ "noun_pre_femn_sing" , "ич", "It&S" ]
+      - [ "noun_nom_femn_plur" , "чі", "t&Si" ]
+      - [ "noun_gen_femn_plur" , "чів", "t&S%jiV" ]
+      - [ "noun_dat_femn_plur" , "чам", "t&SAm" ]
+      - [ "noun_acc_femn_plur" , "чів", "t&S%jiV" ]
+      - [ "noun_ins_femn_plur" , "чами", "t&SAmI" ]
+      - [ "noun_pre_femn_plur" , "чах", "t&SAx" ]
+
+  - id: "MLський"
+    lemma: "noun_nom_masc_sing_anim"
+    endforms:
+      - [ "noun_nom_masc_sing_anim" , "кий", "kIj" ]
+      - [ "noun_gen_masc_sing_anim" , "кого", "kOh6O" ]
+      - [ "noun_dat_masc_sing_anim" , "кому", "kOmu" ]
+      - [ "noun_acc_masc_sing_anim" , "кого", "kOh6O" ]
+      - [ "noun_ins_masc_sing_anim" , "ким", "kIm" ]
+      - [ "noun_pre_masc_sing_anim" , "кому", "kOmu" ]
+      - [ "noun_nom_masc_plur_anim" , "кі", "k%ji" ]
+      - [ "noun_gen_masc_plur_anim" , "ких", "kIx" ]
+      - [ "noun_dat_masc_plur_anim" , "ким", "kIm" ]
+      - [ "noun_acc_masc_plur_anim" , "ких", "kIx" ]
+      - [ "noun_ins_masc_plur_anim" , "кими", "kImI" ]
+      - [ "noun_pre_masc_plur_anim" , "ких", "kIx" ]
+
+  - id: "FLська"
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "ка", "kA" ]
+      - [ "noun_gen_femn_sing" , "ку", "ku" ]
+      - [ "noun_dat_femn_sing" , "кій", "k%jij" ]
+      - [ "noun_acc_femn_sing" , "ку", "ku" ]
+      - [ "noun_ins_femn_sing" , "кою", "kOju" ]
+      - [ "noun_pre_femn_sing" , "кій", "k%jij" ]
+      - [ "noun_nom_femn_plur" , "кі", "k%ji" ]
+      - [ "noun_gen_femn_plur" , "ких", "kIx" ]
+      - [ "noun_dat_femn_plur" , "ким", "kIm" ]
+      - [ "noun_acc_femn_plur" , "ких", "kIx" ]
+      - [ "noun_ins_femn_plur" , "кими", "kImI" ]
+      - [ "noun_pre_femn_plur" , "ких", "kIx" ]
+
+  - id: "HARDM_ов"
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ов", "OV" ]
+      - [ "noun_gen_masc_sing" , "ова", "OVA" ]
+      - [ "noun_dat_masc_sing" , "ову", "OVu" ]
+      - [ "noun_dat_masc_sing" , "овому", "OVOmu" ]
+      - [ "noun_acc_masc_sing" , "ова", "OVA" ]
+      - [ "noun_ins_masc_sing" , "овим", "OVIm" ]
+      - [ "noun_pre_masc_sing" , "овому", "OVOmu" ]
+      - [ "noun_pre_masc_sing" , "овім", "OV%jIm" ]
+      - [ "noun_nom_masc_plur" , "ові", "OV%ji" ]
+      - [ "noun_gen_masc_plur" , "ових", "OVIx" ]
+      - [ "noun_dat_masc_plur" , "овим", "OVIm" ]
+      - [ "noun_acc_masc_plur" , "ових", "OVIx" ]
+      - [ "noun_ins_masc_plur" , "овими", "OVImI" ]
+      - [ "noun_pre_masc_plur" , "ових", "OVIx" ]
+
+  - id: "HARDF_ова"
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "ова", "OVA" ]
+      - [ "noun_gen_femn_sing" , "ову", "OVu" ]
+      - [ "noun_dat_femn_sing" , "овій", "OV%jIj" ]
+      - [ "noun_acc_femn_sing" , "ову", "OVu" ]
+      - [ "noun_ins_femn_sing" , "овою", "OVOju" ]
+      - [ "noun_pre_femn_sing" , "овій", "OV%jIj" ]
+      - [ "noun_nom_femn_plur" , "ові", "OV%ji" ]
+      - [ "noun_gen_femn_plur" , "ових", "OVIx" ]
+      - [ "noun_dat_femn_plur" , "овим", "OVIm" ]
+      - [ "noun_acc_femn_plur" , "ових", "OVIx" ]
+      - [ "noun_ins_femn_plur" , "овими", "OVImI" ]
+      - [ "noun_pre_femn_plur" , "ових", "OVIx" ]
+
+  - id: "HARDM_ев"
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ев", "EV" ]
+      - [ "noun_gen_masc_sing" , "ева", "EVA" ]
+      - [ "noun_dat_masc_sing" , "еву", "EVu" ]
+      - [ "noun_acc_masc_sing" , "ева", "EVA" ]
+      - [ "noun_ins_masc_sing" , "евим", "EVIm" ]
+      - [ "noun_pre_masc_sing" , "еву", "EVu" ]
+      - [ "noun_nom_masc_plur" , "еві", "EV%ji" ]
+      - [ "noun_gen_masc_plur" , "евих", "EVIx" ]
+      - [ "noun_dat_masc_plur" , "евим", "EVIm" ]
+      - [ "noun_acc_masc_plur" , "евих", "EVIx" ]
+      - [ "noun_ins_masc_plur" , "евими", "EVImI" ]
+      - [ "noun_pre_masc_plur" , "евих", "EVIx" ]
+
+  - id: "HARDF_ева"
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "ева", "EVA" ]
+      - [ "noun_gen_femn_sing" , "еву", "EVu" ]
+      - [ "noun_dat_femn_sing" , "евій", "EV%jij" ]
+      - [ "noun_acc_femn_sing" , "еву", "EVu" ]
+      - [ "noun_ins_femn_sing" , "евою", "EVOju" ]
+      - [ "noun_pre_femn_sing" , "евій", "EV%jij" ]
+      - [ "noun_nom_femn_plur" , "еві", "EV%ji" ]
+      - [ "noun_gen_femn_plur" , "евих", "EVIx" ]
+      - [ "noun_dat_femn_plur" , "евим", "EVIm" ]
+      - [ "noun_acc_femn_plur" , "евих", "EVIx" ]
+      - [ "noun_ins_femn_plur" , "евими", "EVImI" ]
+      - [ "noun_pre_femn_plur" , "евих", "EVIx" ]
+
+  - id: "SOFTM_єв"
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "єв", "EV" ]
+      - [ "noun_gen_masc_sing" , "єва", "EVA" ]
+      - [ "noun_dat_masc_sing" , "євому", "EVOmu" ]
+      - [ "noun_acc_masc_sing" , "єва", "EVA" ]
+      - [ "noun_ins_masc_sing" , "євим", "EVIm" ]
+      - [ "noun_pre_masc_sing" , "євому", "EVOmu" ]
+      - [ "noun_nom_masc_plur" , "єві", "EV%ji" ]
+      - [ "noun_gen_masc_plur" , "євих", "EVIx" ]
+      - [ "noun_dat_masc_plur" , "євим", "EVIm" ]
+      - [ "noun_acc_masc_plur" , "євих", "EVIx" ]
+      - [ "noun_ins_masc_plur" , "євими", "EVImI" ]
+      - [ "noun_pre_masc_plur" , "євих", "EVIx" ]
+
+  - id: "SOFTF_ва"
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "ва", "VA" ]
+      - [ "noun_gen_femn_sing" , "ву", "Vu" ]
+      - [ "noun_dat_femn_sing" , "вій", "V%jij" ]
+      - [ "noun_acc_femn_sing" , "ву", "Vu" ]
+      - [ "noun_ins_femn_sing" , "вою", "VOju" ]
+      - [ "noun_pre_femn_sing" , "вій", "V%jij" ]
+      - [ "noun_nom_femn_plur" , "ві", "V%ji" ]
+      - [ "noun_gen_femn_plur" , "вих", "VIx" ]
+      - [ "noun_dat_femn_plur" , "вим", "VIm" ]
+      - [ "noun_acc_femn_plur" , "вих", "VIx" ]
+      - [ "noun_ins_femn_plur" , "вими", "VImI" ]
+      - [ "noun_pre_femn_plur" , "вих", "VIx" ]
+
+  - id: "MLів"
+    lemma: "noun_nom_masc_sing_anim"
+    endforms:
+      - [ "noun_nom_masc_sing_anim" , "ів", "JiV" ]
+      - [ "noun_gen_masc_sing_anim" , "іва", "iVA" ]
+      - [ "noun_dat_masc_sing_anim" , "івому", "iVOmu" ]
+      - [ "noun_acc_masc_sing_anim" , "іва", "iVA" ]
+      - [ "noun_ins_masc_sing_anim" , "івим", "iVIm" ]
+      - [ "noun_pre_masc_sing_anim" , "івому", "iVOmu" ]
+      - [ "noun_nom_masc_plur_anim" , "іві", "iV%ji" ]
+      - [ "noun_gen_masc_plur_anim" , "івих", "iVIx" ]
+      - [ "noun_dat_masc_plur_anim" , "івим", "iVIm" ]
+      - [ "noun_acc_masc_plur_anim" , "івих", "iVIx" ]
+      - [ "noun_ins_masc_plur_anim" , "івими", "iVImI" ]
+      - [ "noun_pre_masc_plur_anim" , "івих", "iVIx" ]
+
+  - id: "SOFTM_ів"
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ів", "JiV" ]
+      - [ "noun_gen_masc_sing" , "ів", "JiV" ]
+      - [ "noun_dat_masc_sing" , "ів", "JiV" ]
+      - [ "noun_acc_masc_sing" , "ів", "JiV" ]
+      - [ "noun_ins_masc_sing" , "ів", "JiV" ]
+      - [ "noun_pre_masc_sing" , "ів", "JiV" ]
+      - [ "noun_nom_masc_plur" , "ів", "JiV" ]
+      - [ "noun_gen_masc_plur" , "ів", "JiV" ]
+      - [ "noun_dat_masc_plur" , "ів", "JiV" ]
+      - [ "noun_acc_masc_plur" , "ів", "JiV" ]
+      - [ "noun_ins_masc_plur" , "ів", "JiV" ]
+      - [ "noun_pre_masc_plur" , "ів", "JiV" ]
+
+  - id: "HARDM_ин"
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ин", "In" ]
+      - [ "noun_gen_masc_sing" , "ина", "InA" ]
+      - [ "noun_dat_masc_sing" , "инові", "InOV%ji" ]
+      - [ "noun_dat_masc_sing" , "ину", "Inu" ]
+      - [ "noun_acc_masc_sing" , "ина", "InA" ]
+      - [ "noun_ins_masc_sing" , "иним", "InIm" ]
+      - [ "noun_pre_masc_sing" , "иному", "InOmu" ]
+      - [ "noun_nom_masc_plur" , "ині", "In%ji" ]
+      - [ "noun_gen_masc_plur" , "иних", "InIx" ]
+      - [ "noun_dat_masc_plur" , "иним", "InIm" ]
+      - [ "noun_acc_masc_plur" , "иних", "InIx" ]
+      - [ "noun_ins_masc_plur" , "иним", "InIm" ]
+      - [ "noun_pre_masc_plur" , "иним", "InIm" ]
+
+  - id: "HARDF_ина"
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "ина", "InA" ]
+      - [ "noun_gen_femn_sing" , "ину", "Inu" ]
+      - [ "noun_dat_femn_sing" , "иній", "In%jij" ]
+      - [ "noun_acc_femn_sing" , "ину", "Inu" ]
+      - [ "noun_ins_femn_sing" , "иною", "InOju" ]
+      - [ "noun_pre_femn_sing" , "иній", "In%jij" ]
+      - [ "noun_nom_femn_plur" , "ині", "In%ji" ]
+      - [ "noun_gen_femn_plur" , "иних", "InIx" ]
+      - [ "noun_dat_femn_plur" , "иним", "InIm" ]
+      - [ "noun_acc_femn_plur" , "иних", "InIx" ]
+      - [ "noun_ins_femn_plur" , "иними", "InImI" ]
+      - [ "noun_pre_femn_plur" , "иних", "InIx" ]
+
+ - id: "HARDM_ук"
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ук", "uk" ]
+      - [ "noun_gen_masc_sing" , "ука", "ukA" ]
+      - [ "noun_dat_masc_sing" , "уку", "uku" ]
+      - [ "noun_dat_masc_sing" , "укові", "ukOV%ji" ]
+      - [ "noun_acc_masc_sing" , "ука", "ukA" ]
+      - [ "noun_ins_masc_sing" , "уком", "ukOm" ]
+      - [ "noun_pre_masc_sing" , "уку", "uku" ]
+      - [ "noun_pre_masc_sing" , "укові", "ukOV%ji" ]
+      - [ "noun_nom_masc_plur" , "уки", "ukI" ]
+      - [ "noun_gen_masc_plur" , "уків", "uk%jiV" ]
+      - [ "noun_dat_masc_plur" , "укам", "ukAm" ]
+      - [ "noun_acc_masc_plur" , "уків", "uk%jiV" ]
+      - [ "noun_ins_masc_plur" , "уками", "ukAmI" ]
+      - [ "noun_pre_masc_plur" , "уках", "ukAx" ]
+
+  - id: "SOFTM_юк"
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "юк", "uk" ]
+      - [ "noun_gen_masc_sing" , "юка", "ukA" ]
+      - [ "noun_dat_masc_sing" , "юкові", "ukOV%ji" ]
+      - [ "noun_dat_masc_sing" , "юку", "uku" ]
+      - [ "noun_acc_masc_sing" , "юка", "ukA" ]
+      - [ "noun_ins_masc_sing" , "юком", "ukOm" ]
+      - [ "noun_pre_masc_sing" , "юкові", "ukOV%ji" ]
+      - [ "noun_pre_masc_sing" , "юку", "uku" ]
+      - [ "noun_nom_masc_plur" , "юки", "ukI" ]
+      - [ "noun_gen_masc_plur" , "юків", "uk%jiV" ]
+      - [ "noun_dat_masc_plur" , "юками", "ukAmI" ]
+      - [ "noun_acc_masc_plur" , "юків", "uk%jiV" ]
+      - [ "noun_ins_masc_plur" , "юками", "ukAmI" ]
+      - [ "noun_pre_masc_plur" , "юках", "ukAx" ]
+
+ - id: "HARDM_ович"
+    lemma: "noun_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ич", "It&S" ]
+      - [ "noun_gen_masc_sing" , "ича", "It&SA" ]
+      - [ "noun_dat_masc_sing" , "ичу", "It&Su" ]
+      - [ "noun_acc_masc_sing" , "ича", "It&SA" ]
+      - [ "noun_ins_masc_sing" , "ичем", "It&SEm" ]
+      - [ "noun_pre_masc_sing" , "ичу", "It&Su" ]
+      - [ "noun_nom_masc_plur" , "чі", "t&Si" ]
+      - [ "noun_gen_masc_plur" , "чів", "t&S%jiV" ]
+      - [ "noun_dat_masc_plur" , "чам", "t&SAm" ]
+      - [ "noun_acc_masc_plur" , "чів", "t&S%jiV" ]
+      - [ "noun_ins_masc_plur" , "чами", "t&SAmI" ]
+      - [ "noun_pre_masc_plur" , "чах", "t&SAx" ]
+
+  - id: "SOFTF_івна"
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "на", "nA" ]
+      - [ "noun_gen_femn_sing" , "ни", "nI" ]
+      - [ "noun_dat_femn_sing" , "ні", "n%ji" ]
+      - [ "noun_acc_femn_sing" , "ну", "nu" ]
+      - [ "noun_ins_femn_sing" , "ною", "nOju" ]
+      - [ "noun_pre_femn_sing" , "ній", "n%jij" ]
+      - [ "noun_nom_femn_plur" , "ні", "n%ji" ]
+      - [ "noun_gen_femn_plur" , "них", "nIx" ]
+      - [ "noun_dat_femn_plur" , "ним", "nIm" ]
+      - [ "noun_acc_femn_plur" , "них", "nIx" ]
+      - [ "noun_ins_femn_plur" , "ними", "nImI" ]
+      - [ "noun_pre_femn_plur" , "них", "nIx" ]
+
+ - id: "MLцький"
+    lemma: "noun_nom_masc_sing_anim"
+    endforms:
+      - [ "noun_nom_masc_sing_anim" , "кий", "kIj" ]
+      - [ "noun_gen_masc_sing_anim" , "кого", "kOh6O" ]
+      - [ "noun_dat_masc_sing_anim" , "кому", "kOmu" ]
+      - [ "noun_acc_masc_sing_anim" , "кого", "kOh6O" ]
+      - [ "noun_ins_masc_sing_anim" , "ким", "kIm" ]
+      - [ "noun_pre_masc_sing_anim" , "кому", "kOmu" ]
+      - [ "noun_nom_masc_plur_anim" , "кі", "k%ji" ]
+      - [ "noun_gen_masc_plur_anim" , "ких", "kIx" ]
+      - [ "noun_dat_masc_plur_anim" , "ким", "kIm" ]
+      - [ "noun_acc_masc_plur_anim" , "ких", "kIx" ]
+      - [ "noun_ins_masc_plur_anim" , "кими", "kImI" ]
+      - [ "noun_pre_masc_plur_anim" , "ких", "kIx" ]
+
+  - id: "FLцька"
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "ка", "kA" ]
+      - [ "noun_gen_femn_sing" , "ку", "ku" ]
+      - [ "noun_dat_femn_sing" , "кій", "k%jij" ]
+      - [ "noun_acc_femn_sing" , "ку", "ku" ]
+      - [ "noun_ins_femn_sing" , "кою", "kOju" ]
+      - [ "noun_pre_femn_sing" , "кій", "k%jij" ]
+      - [ "noun_nom_femn_plur" , "кі", "k%ji" ]
+      - [ "noun_gen_femn_plur" , "ких", "kIx" ]
+      - [ "noun_dat_femn_plur" , "ким", "kIm" ]
+      - [ "noun_acc_femn_plur" , "ких", "kIx" ]
+      - [ "noun_ins_femn_plur" , "кими", "kImI" ]
+      - [ "noun_pre_femn_plur" , "ких", "kIx" ]
+
+- id: "HARDX_ка"
+    lemma: "noun_nom_ngen_sing"
+    endforms:
+      - [ "noun_nom_ngen_sing" , "ка", "kA" ]
+      - [ "noun_gen_ngen_sing" , "ки", "kI" ]
+      - [ "noun_dat_ngen_sing" , "ці", "t&s%ji" ]
+      - [ "noun_acc_ngen_sing" , "ку", "ku" ]
+      - [ "noun_ins_ngen_sing" , "кою", "kOju" ]
+      - [ "noun_pre_ngen_sing" , "ці", "t&s%ji" ]
+      - [ "noun_nom_ngen_plur" , "ки", "kI" ]
+      - [ "noun_gen_ngen_plur" , "к", "k" ]
+      - [ "noun_dat_ngen_plur" , "кам", "kAm" ]
+      - [ "noun_acc_ngen_plur" , "к", "k" ]
+      - [ "noun_ins_ngen_plur" , "ками", "kAmI" ]
+      - [ "noun_pre_ngen_plur" , "ках", "kAx" ]
+
+  - id: "HARDF_нка"
+    lemma: "noun_nom_femn_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "нка", "nkA" ]
+      - [ "noun_gen_femn_sing" , "нки", "nkI" ]
+      - [ "noun_dat_femn_sing" , "нці", "nt&s%ji" ]
+      - [ "noun_acc_femn_sing" , "нку", "nku" ]
+      - [ "noun_ins_femn_sing" , "нкою", "nkOju" ]
+      - [ "noun_pre_femn_sing" , "нці", "nt&s%ji" ]
+      - [ "noun_nom_femn_plur" , "нки", "nkI" ]
+      - [ "noun_gen_femn_plur" , "нок", "nOk" ]
+      - [ "noun_dat_femn_plur" , "нкам", "nkAm" ]
+      - [ "noun_acc_femn_plur" , "нок", "nOk" ]
+      - [ "noun_ins_femn_plur" , "нками", "nkAmI" ]
+      - [ "noun_pre_femn_plur" , "нках", "nkAx" ]
+
+#ADJECTIVES
+
+  - id: "mova-adj-1" #білий
+    lemma: "adj_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ий", "Іj" ]
+      - [ "noun_gen_masc_sing" , "ого", "Oh6O" ]
+      - [ "noun_dat_masc_sing" , "ому", "Omu" ]
+      - [ "noun_acc_masc_sing" , "ий", "Ij" ]
+      - [ "noun_acc_masc_sing" , "ого", "Oh6O" ]
+      - [ "noun_ins_masc_sing" , "им", "Im" ]
+      - [ "noun_pre_masc_sing" , "ому", "Omu" ]
+      - [ "noun_pre_masc_sing" , "ім", "Jim" ]
+      - [ "noun_nom_neut_sing" , "е", "E" ]
+      - [ "noun_gen_neut_sing" , "ого", "Oh6O" ]
+      - [ "noun_dat_neut_sing" , "ому", "Omu" ]
+      - [ "noun_acc_neut_sing" , "е", "E" ]
+      - [ "noun_ins_neut_sing" , "им", "Im" ]
+      - [ "noun_pre_neut_sing" , "ому", "Omu" ]
+      - [ "noun_pre_neut_sing" , "ім", "Jim" ]
+      - [ "noun_nom_femn_sing" , "а", "A" ]
+      - [ "noun_gen_femn_sing" , "ої", "OJi" ]
+      - [ "noun_dat_femn_sing" , "ій", "Jij" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "ою", "OJu" ]
+      - [ "noun_pre_femn_sing" , "ій", "Jij" ]
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "их", "Ix" ]
+      - [ "noun_dat_plur" , "им", "Im" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "ими", "ImI" ]
+      - [ "noun_pre_plur" , "их", "Ix" ]
+
+  - id: "mova-adj-1а" #певний
+    lemma: "adj_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ий", "Іj" ]
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "ого", "Oh6O" ]
+      - [ "noun_dat_masc_sing" , "ому", "Omu" ]
+      - [ "noun_acc_masc_sing" , "ий", "Ij" ]
+      - [ "noun_acc_masc_sing" , "ого", "Oh6O" ]
+      - [ "noun_ins_masc_sing" , "им", "Im" ]
+      - [ "noun_pre_masc_sing" , "ому", "Omu" ]
+      - [ "noun_pre_masc_sing" , "ім", "Jim" ]
+      - [ "noun_nom_neut_sing" , "е", "E" ]
+      - [ "noun_gen_neut_sing" , "ого", "Oh6O" ]
+      - [ "noun_dat_neut_sing" , "ому", "Omu" ]
+      - [ "noun_acc_neut_sing" , "е", "E" ]
+      - [ "noun_ins_neut_sing" , "им", "Im" ]
+      - [ "noun_pre_neut_sing" , "ому", "Omu" ]
+      - [ "noun_pre_neut_sing" , "ім", "Jim" ]
+      - [ "noun_nom_femn_sing" , "а", "A" ]
+      - [ "noun_gen_femn_sing" , "ої", "OJi" ]
+      - [ "noun_dat_femn_sing" , "ій", "Jij" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "ою", "OJu" ]
+      - [ "noun_pre_femn_sing" , "ій", "Jij" ]
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "их", "Ix" ]
+      - [ "noun_dat_plur" , "им", "Im" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "ими", "ImI" ]
+      - [ "noun_pre_plur" , "их", "Ix" ]
+
+  - id: "mova-adj-1ж" #дійна
+    lemma: "adj_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "а", "A" ]
+      - [ "noun_gen_femn_sing" , "ої", "OJi" ]
+      - [ "noun_dat_femn_sing" , "ій", "Jij" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "ою", "OJu" ]
+      - [ "noun_pre_femn_sing" , "ій", "Jij" ]
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "их", "Ix" ]
+      - [ "noun_dat_plur" , "им", "Im" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "ими", "ImI" ]
+      - [ "noun_pre_plur" , "их", "Ix" ]
+
+  - id: "mova-adj-1ч" #жонатий
+    lemma: "adj_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ий", "Іj" ]
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "ого", "Oh6O" ]
+      - [ "noun_dat_masc_sing" , "ому", "Omu" ]
+      - [ "noun_acc_masc_sing" , "ий", "Ij" ]
+      - [ "noun_acc_masc_sing" , "ого", "Oh6O" ]
+      - [ "noun_ins_masc_sing" , "им", "Im" ]
+      - [ "noun_pre_masc_sing" , "ому", "Omu" ]
+      - [ "noun_pre_masc_sing" , "ім", "Jim" ]
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "их", "Ix" ]
+      - [ "noun_dat_plur" , "им", "Im" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "ими", "ImI" ]
+      - [ "noun_pre_plur" , "их", "Ix" ]
+
+  - id: "mova-adj-2" #дволиций
+    lemma: "adj_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ий", "Іj" ]
+      - [ "noun_gen_masc_sing" , "ього", "%Oh6O" ]
+      - [ "noun_dat_masc_sing" , "ьому", "%Omu" ]
+      - [ "noun_acc_masc_sing" , "ий", "Ij" ]
+      - [ "noun_acc_masc_sing" , "ього", "%Oh6O" ]
+      - [ "noun_ins_masc_sing" , "им", "Im" ]
+      - [ "noun_pre_masc_sing" , "ьому", "%Omu" ]
+      - [ "noun_pre_masc_sing" , "ім", "Jim" ]
+      - [ "noun_nom_neut_sing" , "е", "E" ]
+      - [ "noun_gen_neut_sing" , "ього", "%Oh6O" ]
+      - [ "noun_dat_neut_sing" , "ьому", "%Omu" ]
+      - [ "noun_acc_neut_sing" , "е", "E" ]
+      - [ "noun_ins_neut_sing" , "им", "Im" ]
+      - [ "noun_pre_neut_sing" , "ьому", "%Omu" ]
+      - [ "noun_pre_neut_sing" , "ім", "Jim" ]
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "ьої", "%OJi" ]
+      - [ "noun_dat_femn_sing" , "ій", "Jij" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "ьою", "%OJu" ]
+      - [ "noun_pre_femn_sing" , "ій", "Jij" ]
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "их", "Ix" ]
+      - [ "noun_dat_plur" , "им", "Im" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "ими", "ImI" ]
+      - [ "noun_pre_plur" , "их", "Ix" ]
+
+- id: "mova-adj-3" #ранній
+    lemma: "adj_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ій", "Jij" ]
+      - [ "noun_gen_masc_sing" , "ього", "%Oh6O" ]
+      - [ "noun_dat_masc_sing" , "ьому", "%Omu" ]
+      - [ "noun_acc_masc_sing" , "ій", "Jij" ]
+      - [ "noun_acc_masc_sing" , "ього", "%Oh6O" ]
+      - [ "noun_ins_masc_sing" , "iм", "Jim" ]
+      - [ "noun_pre_masc_sing" , "ьому", "%Omu" ]
+      - [ "noun_pre_masc_sing" , "ім", "Jim" ]
+      - [ "noun_nom_neut_sing" , "є", "JE" ]
+      - [ "noun_gen_neut_sing" , "ього", "%Oh6O" ]
+      - [ "noun_dat_neut_sing" , "ьому", "%Omu" ]
+      - [ "noun_acc_neut_sing" , "є", "JE" ]
+      - [ "noun_ins_neut_sing" , "ім", "Jim" ]
+      - [ "noun_pre_neut_sing" , "ьому", "%Omu" ]
+      - [ "noun_pre_neut_sing" , "ім", "Jim" ]
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "ьої", "%OJi" ]
+      - [ "noun_dat_femn_sing" , "ій", "Jij" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "ьою", "%OJu" ]
+      - [ "noun_pre_femn_sing" , "ій", "Jij" ]
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "іх", "Jix" ]
+      - [ "noun_dat_plur" , "ім", "Jim" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "іми", "JimI" ]
+      - [ "noun_pre_plur" , "іх", "Jix" ]
+
+- id: "mova-adj-3а" #Господній
+    lemma: "adj_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "ій", "Jij" ]
+      - [ "noun_nom_masc_sing" , "ь", "%" ]
+      - [ "noun_gen_masc_sing" , "ього", "%Oh6O" ]
+      - [ "noun_dat_masc_sing" , "ьому", "%Omu" ]
+      - [ "noun_acc_masc_sing" , "ій", "Jij" ]
+      - [ "noun_acc_masc_sing" , "ього", "%Oh6O" ]
+      - [ "noun_ins_masc_sing" , "iм", "Jim" ]
+      - [ "noun_pre_masc_sing" , "ьому", "%Omu" ]
+      - [ "noun_pre_masc_sing" , "ім", "Jim" ]
+      - [ "noun_nom_neut_sing" , "є", "JE" ]
+      - [ "noun_gen_neut_sing" , "ього", "%Oh6O" ]
+      - [ "noun_dat_neut_sing" , "ьому", "%Omu" ]
+      - [ "noun_acc_neut_sing" , "є", "JE" ]
+      - [ "noun_ins_neut_sing" , "ім", "Jim" ]
+      - [ "noun_pre_neut_sing" , "ьому", "%Omu" ]
+      - [ "noun_pre_neut_sing" , "ім", "Jim" ]
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "ьої", "%OJi" ]
+      - [ "noun_dat_femn_sing" , "ій", "Jij" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "ьою", "%OJu" ]
+      - [ "noun_pre_femn_sing" , "ій", "Jij" ]
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "іх", "Jix" ]
+      - [ "noun_dat_plur" , "ім", "Jim" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "іми", "JimI" ]
+      - [ "noun_pre_plur" , "іх", "Jix" ]
+
+- id: "mova-adj-3ж" #незаміжня
+    lemma: "adj_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "ьої", "%OJi" ]
+      - [ "noun_dat_femn_sing" , "ій", "Jij" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "ьою", "%OJu" ]
+      - [ "noun_pre_femn_sing" , "ій", "Jij" ]
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "іх", "Jix" ]
+      - [ "noun_dat_plur" , "ім", "Jim" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "іми", "JimI" ]
+      - [ "noun_pre_plur" , "іх", "Jix" ]
+
+- id: "mova-adj-4" #безкраїй"
+    lemma: "adj_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "їй", "Jij" ]
+      - [ "noun_gen_masc_sing" , "ього", "%Oh6O" ]
+      - [ "noun_dat_masc_sing" , "ьому", "%Omu" ]
+      - [ "noun_acc_masc_sing" , "їй", "Jij" ]
+      - [ "noun_acc_masc_sing" , "ього", "%Oh6O" ]
+      - [ "noun_ins_masc_sing" , "їм", "Jim" ]
+      - [ "noun_pre_masc_sing" , "ьому", "%Omu" ]
+      - [ "noun_pre_masc_sing" , "їм", "Jim" ]
+      - [ "noun_nom_neut_sing" , "є", "JE" ]
+      - [ "noun_gen_neut_sing" , "ього", "%Oh6O" ]
+      - [ "noun_dat_neut_sing" , "ьому", "%Omu" ]
+      - [ "noun_acc_neut_sing" , "є", "JE" ]
+      - [ "noun_ins_neut_sing" , "їм", "Jim" ]
+      - [ "noun_pre_neut_sing" , "ьому", "%Omu" ]
+      - [ "noun_pre_neut_sing" , "їм", "Jim" ]
+      - [ "noun_nom_femn_sing" , "я", "JA" ]
+      - [ "noun_gen_femn_sing" , "ьої", "%OJi" ]
+      - [ "noun_dat_femn_sing" , "їй", "Jij" ]
+      - [ "noun_acc_femn_sing" , "ю", "Ju" ]
+      - [ "noun_ins_femn_sing" , "ьою", "%OJu" ]
+      - [ "noun_pre_femn_sing" , "їй", "Jij" ]
+      - [ "noun_nom_plur" , "ї", "Ji" ]
+      - [ "noun_gen_plur" , "їх", "Jix" ]
+      - [ "noun_dat_plur" , "їм", "Jim" ]
+      - [ "noun_acc_plur" , "ї", "Ji" ]
+      - [ "noun_ins_plur" , "їми", "JimI" ]
+      - [ "noun_pre_plur" , "їх", "Jix" ]
+
+  - id: "mova-adj-5" #тещин
+    lemma: "adj_nom_masc_sing"
+    endforms:
+      - [ "noun_nom_masc_sing" , "", "" ]
+      - [ "noun_gen_masc_sing" , "ого", "Oh6O" ]
+      - [ "noun_dat_masc_sing" , "ому", "Omu" ]
+      - [ "noun_acc_masc_sing" , "", "" ]
+      - [ "noun_acc_masc_sing" , "ого", "Oh6O" ]
+      - [ "noun_ins_masc_sing" , "им", "Im" ]
+      - [ "noun_pre_masc_sing" , "ому", "Omu" ]
+      - [ "noun_pre_masc_sing" , "ім", "Jim" ]
+      - [ "noun_nom_neut_sing" , "е", "E" ]
+      - [ "noun_gen_neut_sing" , "ого", "Oh6O" ]
+      - [ "noun_dat_neut_sing" , "ому", "Omu" ]
+      - [ "noun_acc_neut_sing" , "е", "E" ]
+      - [ "noun_ins_neut_sing" , "им", "Im" ]
+      - [ "noun_pre_neut_sing" , "ому", "Omu" ]
+      - [ "noun_pre_neut_sing" , "ім", "Jim" ]
+      - [ "noun_nom_femn_sing" , "а", "A" ]
+      - [ "noun_gen_femn_sing" , "ої", "OJi" ]
+      - [ "noun_dat_femn_sing" , "ій", "Jij" ]
+      - [ "noun_acc_femn_sing" , "у", "u" ]
+      - [ "noun_ins_femn_sing" , "ою", "OJu" ]
+      - [ "noun_pre_femn_sing" , "ій", "Jij" ]
+      - [ "noun_nom_plur" , "і", "Ji" ]
+      - [ "noun_gen_plur" , "их", "Ix" ]
+      - [ "noun_dat_plur" , "им", "Im" ]
+      - [ "noun_acc_plur" , "і", "Ji" ]
+      - [ "noun_ins_plur" , "ими", "ImI" ]
+      - [ "noun_pre_plur" , "их", "Ix" ]
+
+
