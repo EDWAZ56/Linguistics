@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE TEI.2 PUBLIC "-//CTB//DTD CAT (based on TEI)//NL" "CAT.dtd" [
+<!ENTITY interp SYSTEM "interp.ent">
+]>
+<TEI.2 TEIform="TEI.2" id="N072p33602">
+   <teiHeader creator="Ron Van den Branden" date.created="2004-02-05" status="new" TEIform="teiHeader" type="text">
+      <fileDesc TEIform="fileDesc">
+         <titleStmt TEIform="titleStmt">
+            <title TEIform="title">N072p33602</title>
+            <author TEIform="author">
+               <name TEIform="name"/>
+            </author>
+            <editor role="editor" TEIform="editor">
+               <name id="CDW" TEIform="name">Chris De Wulf</name>
+            </editor>
+            <respStmt>
+               <name id="JD">Janneke Diepeveen</name>
+               <resp>semi-automatische linguïstische codering</resp>
+            </respStmt>
+            <respStmt>
+               <name id="RvdB">Ron Van den Branden</name>
+               <resp>conversie naar TEI-conform formaat</resp>
+            </respStmt>
+            <principal>
+               <name>Georges De Schutter</name>
+            </principal>
+            <funder>
+               <name>Koninklijke Academie voor Nederlandse Taal- en Letterkunde (KANTL)</name>
+               <address>
+                  <addrLine>Koningstraat 18</addrLine>
+                  <addrLine TEIform="addrLine">b-9000 Gent</addrLine>
+                  <addrLine TEIform="addrLine">(België)</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <publicationStmt TEIform="publicationStmt">
+            <publisher>Koninklijke Academie voor Nederlandse Taal- en Letterkunde (KANTL)</publisher>
+            <pubPlace>Gent</pubPlace>
+            <date value="2004">2004</date>
+            <availability status="restricted">
+               <p>© Copyright 2004, KANTL</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc TEIform="sourceDesc" default="NO">
+            <msDescription>
+               <msIdentifier>
+                  <country>België</country>
+                  <settlement>*** leeg ***</settlement>
+                  <repository>*** leeg ***</repository>
+                  <collection>*** leeg ***</collection>
+                  <idno>*** leeg ***</idno>
+               </msIdentifier>
+               <history>
+                  <origin n="02">
+                     <p>
+                        <placeName>
+                           <origPlace>N072p</origPlace>
+                           <settlement>Ieper</settlement>
+                           <region>West-Vlaanderen</region>
+                        </placeName>
+                        <origDate>1336</origDate>
+                     </p>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <note>o:N072p33602.Ieper.COO-ASW-004.28september1336</note>
+                  </adminInfo>
+                  <surrogates><!--beschrijving van mogelijke andere representaties (vb. foto)-->
+                     <p>
+                        <bibl/>
+                     </p>
+                  </surrogates>
+               </additional>
+            </msDescription>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Deze tekst werd verzameld in het kader van het VNC-project <title>Project: Databank van veertiende-eeuwse niet-literaire Nederlandse teksten. Opbouw en linguïstisch onderzoek</title>. Dit project liep van 01/01/2004 tot 31/12/2007 en had als doel om lacunes aan te vullen van een bestaand corpus van veertiende-eeuwse teksten, dat verzameld werd door Van Mulder en Van Reenen.
+      </p>
+            <p>Dit deel van het VNC-project werd gefinancierd via FWO-Vlaanderen, onder kredietnummer 33G029504.</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Integrale tekst</p>
+         </samplingDecl>
+         <editorialDecl>
+            <correction>
+               <p>De tekst is letterlijk getranscribeerd. Waar nodig werden mogelijke fouten gesignaleerd met het [sic] element, met een suggestie voor verbetering in het "corr" attribuut. Ontbrekende tekst werd aangevuld met [supplied], onduidelijke tekst gesignaleerd via [unclear]. Afkortingen zijn gesignaleerd met het [abbr] element, waar mogelijk wordt een oplossing gesuggereerd in het "expan" attribuut.</p>
+            </correction>
+            <normalization>
+               <p>De tekst is niet genormaliseerd en volgt zo nauwkeurig mogelijk de oorspronkelijke schrijfwijze van de brontekst. Normalisering wordt opgevangen in de lemmatisering.</p>
+            </normalization>
+            <quotation>
+               <p>Quotaties worden niet als dusdanig aangeduid; aanhalingstekens en apostrofes worden overgenomen zoals ze voorkomen in de brontekst en weergegeven als andere leestekens.</p>
+            </quotation>
+            <hyphenation>
+               <p>Regeleindes werden overgenomen zoals ze voorkomen in de brontekst en weergegeven met het [lb/] element. Waar splitsingstekens voorkomen in de brontekst, zijn die overgenomen.</p>
+            </hyphenation>
+            <segmentation>
+               <p>De tekst is gesegmenteerd tot op woordniveau, met elk woord binnen een [w] element.</p>
+            </segmentation>
+            <interpretation>
+               <p>De tekst is verrijkt met linguïstische analyses op woordniveau. Elk woord is gecodeerd in een [w] element, met codes voor lemmatisering in een "lemma" attribuut en woordsoort in een "ana" attribuut.</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc TEIform="revisionDesc">
+         <change>
+            <date value="2005-07-13">2005-07-13</date>
+            <respStmt>
+               <resp>markup</resp>
+               <name>Ron Van den Branden</name>
+            </respStmt>
+            <item>
+               <list>
+                  <item>toevoeging van @id aan [TEI.2]</item>
+                  <item>update van header: <list>
+                        <item>update van [fileDesc/publicationStmt]</item>
+                        <item>vervanging van [fileDesc/bibl] door [fileDesc/msDescription]</item>
+                        <item>toevoeging van [encodingDesc]</item>
+                     </list>
+                  </item>
+               </list>
+            </item>
+         </change>
+         <change TEIform="change">
+            <date value="2005-05-26" TEIform="date">2005-05-26</date>
+            <respStmt TEIform="respStmt">
+               <resp TEIform="resp">markup</resp>
+               <name TEIform="name">Ron Van den Branden</name>
+            </respStmt>
+            <item TEIform="item">toevoeging van aanduiding voor ontbrekende spatie in @rend attribuut waar nodig</item>
+         </change>
+         <change TEIform="change">
+            <date value="2005-05-10" TEIform="date">2005-05-10</date>
+            <respStmt TEIform="respStmt">
+               <resp TEIform="resp">markup</resp>
+               <name TEIform="name">Ron Van den Branden</name>
+            </respStmt>
+            <item TEIform="item">wijziging van interpunctie in [w] naar [c]</item>
+         </change>
+         <change TEIform="change">
+            <date value="2005-3-29" TEIform="date">2005-3-29</date>
+            <respStmt TEIform="respStmt">
+               <resp TEIform="resp">markup</resp>
+               <name TEIform="name">Ron Van den Branden</name>
+            </respStmt>
+            <item TEIform="item">
+               <list TEIform="list" type="simple">
+                  <item TEIform="item">invoeging van definities voor woordsoortcodes</item>
+                  <item TEIform="item">omzetting van codes in @ana attribuut naar geldige IDREFs</item>
+               </list>
+            </item>
+         </change>
+         <change TEIform="change">
+            <date value="2004-02-05" TEIform="date">2004-02-05</date>
+            <respStmt TEIform="respStmt">
+               <resp TEIform="resp">markup</resp>
+               <name TEIform="name">Ron Van den Branden</name>
+            </respStmt>
+            <item TEIform="item">omzetting van platte tekst naar XML</item>
+         </change>
+         <change TEIform="change">
+            <date value="2003" TEIform="date">2003</date>
+            <respStmt TEIform="respStmt">
+               <resp TEIform="resp">transcriptie</resp>
+               <name TEIform="name">Chris de Wulf</name>
+            </respStmt>
+            <item TEIform="item">invoer, transcriptie in platte tekst</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text TEIform="text">
+      <front TEIform="front">
+         <interp id="c000" value="zn enkelvoud geen" TEIform="interp"/>
+         <interp id="c001" value="zn enkelvoud e" TEIform="interp"/>
+         <interp id="c002" value="zn enkelvoud s" TEIform="interp"/>
+         <interp id="c003" value="zn enkelvoud t" TEIform="interp"/>
+         <interp id="c004" value="zn enkelvoud n" TEIform="interp"/>
+         <interp id="c005" value="zn enkelvoud r" TEIform="interp"/>
+         <interp id="c006" value="zn enkelvoud a" TEIform="interp"/>
+         <interp id="c007" value="zn enkelvoud nt" TEIform="interp"/>
+         <interp id="c009" value="zn enkelvoud probleem" TEIform="interp"/>
+         <interp id="c010" value="zn meervoud geen" TEIform="interp"/>
+         <interp id="c011" value="zn meervoud e" TEIform="interp"/>
+         <interp id="c012" value="zn meervoud s" TEIform="interp"/>
+         <interp id="c013" value="zn meervoud t" TEIform="interp"/>
+         <interp id="c014" value="zn meervoud n" TEIform="interp"/>
+         <interp id="c015" value="zn meervoud r" TEIform="interp"/>
+         <interp id="c016" value="zn meervoud a" TEIform="interp"/>
+         <interp id="c017" value="zn meervoud nt" TEIform="interp"/>
+         <interp id="c019" value="zn meervoud probleem" TEIform="interp"/>
+         <interp id="c020" value="zn eigennaam geen" TEIform="interp"/>
+         <interp id="c021" value="zn eigennaam e" TEIform="interp"/>
+         <interp id="c022" value="zn eigennaam s" TEIform="interp"/>
+         <interp id="c023" value="zn eigennaam t" TEIform="interp"/>
+         <interp id="c024" value="zn eigennaam n" TEIform="interp"/>
+         <interp id="c025" value="zn eigennaam r" TEIform="interp"/>
+         <interp id="c026" value="zn eigennaam a" TEIform="interp"/>
+         <interp id="c027" value="zn eigennaam nt" TEIform="interp"/>
+         <interp id="c029" value="zn eigennaam probleem" TEIform="interp"/>
+         <interp id="c090" value="zn probleem geen" TEIform="interp"/>
+         <interp id="c091" value="zn probleem e" TEIform="interp"/>
+         <interp id="c092" value="zn probleem s" TEIform="interp"/>
+         <interp id="c093" value="zn probleem t" TEIform="interp"/>
+         <interp id="c094" value="zn probleem n" TEIform="interp"/>
+         <interp id="c095" value="zn probleem r" TEIform="interp"/>
+         <interp id="c096" value="zn probleem a" TEIform="interp"/>
+         <interp id="c097" value="zn probleem nt" TEIform="interp"/>
+         <interp id="c099" value="zn probleem probleem" TEIform="interp"/>
+         <interp id="c100" value="bn enkelvoud geen" TEIform="interp"/>
+         <interp id="c101" value="bn enkelvoud e" TEIform="interp"/>
+         <interp id="c102" value="bn enkelvoud s" TEIform="interp"/>
+         <interp id="c103" value="bn enkelvoud t" TEIform="interp"/>
+         <interp id="c104" value="bn enkelvoud n" TEIform="interp"/>
+         <interp id="c105" value="bn enkelvoud r" TEIform="interp"/>
+         <interp id="c106" value="bn enkelvoud a" TEIform="interp"/>
+         <interp id="c107" value="bn enkelvoud nt" TEIform="interp"/>
+         <interp id="c109" value="bn enkelvoud probleem" TEIform="interp"/>
+         <interp id="c110" value="bn meervoud geen" TEIform="interp"/>
+         <interp id="c111" value="bn meervoud e" TEIform="interp"/>
+         <interp id="c112" value="bn meervoud s" TEIform="interp"/>
+         <interp id="c113" value="bn meervoud t" TEIform="interp"/>
+         <interp id="c114" value="bn meervoud n" TEIform="interp"/>
+         <interp id="c115" value="bn meervoud r" TEIform="interp"/>
+         <interp id="c116" value="bn meervoud a" TEIform="interp"/>
+         <interp id="c117" value="bn meervoud nt" TEIform="interp"/>
+         <interp id="c119" value="bn meervoud probleem" TEIform="interp"/>
+         <interp id="c190" value="bn probleem geen" TEIform="interp"/>
+         <interp id="c191" value="bn probleem e" TEIform="interp"/>
+         <interp id="c192" value="bn probleem s" TEIform="interp"/>
+         <interp id="c193" value="bn probleem t" TEIform="interp"/>
+         <interp id="c194" value="bn probleem n" TEIform="interp"/>
+         <interp id="c195" value="bn probleem r" TEIform="interp"/>
+         <interp id="c196" value="bn probleem a" TEIform="interp"/>
+         <interp id="c197" value="bn probleem nt" TEIform="interp"/>
+         <interp id="c199" value="bn probleem probleem" TEIform="interp"/>
+         <interp id="c200" value="ww pv_tt_zelfst geen" TEIform="interp"/>
+         <interp id="c201" value="ww pv_tt_zelfst e" TEIform="interp"/>
+         <interp id="c202" value="ww pv_tt_zelfst s" TEIform="interp"/>
+         <interp id="c203" value="ww pv_tt_zelfst t" TEIform="interp"/>
+         <interp id="c204" value="ww pv_tt_zelfst n" TEIform="interp"/>
+         <interp id="c205" value="ww pv_tt_zelfst r" TEIform="interp"/>
+         <interp id="c206" value="ww pv_tt_zelfst a" TEIform="interp"/>
+         <interp id="c207" value="ww pv_tt_zelfst nt" TEIform="interp"/>
+         <interp id="c209" value="ww pv_tt_zelfst probleem" TEIform="interp"/>
+         <interp id="c210" value="ww pv_tt_hulp_koppel geen" TEIform="interp"/>
+         <interp id="c211" value="ww pv_tt_hulp_koppel e" TEIform="interp"/>
+         <interp id="c212" value="ww pv_tt_hulp_koppel s" TEIform="interp"/>
+         <interp id="c213" value="ww pv_tt_hulp_koppel t" TEIform="interp"/>
+         <interp id="c214" value="ww pv_tt_hulp_koppel n" TEIform="interp"/>
+         <interp id="c215" value="ww pv_tt_hulp_koppel r" TEIform="interp"/>
+         <interp id="c216" value="ww pv_tt_hulp_koppel a" TEIform="interp"/>
+         <interp id="c217" value="ww pv_tt_hulp_koppel nt" TEIform="interp"/>
+         <interp id="c219" value="ww pv_tt_hulp_koppel probleem" TEIform="interp"/>
+         <interp id="c220" value="ww pv_vt_zelfst geen" TEIform="interp"/>
+         <interp id="c221" value="ww pv_vt_zelfst e" TEIform="interp"/>
+         <interp id="c222" value="ww pv_vt_zelfst s" TEIform="interp"/>
+         <interp id="c223" value="ww pv_vt_zelfst t" TEIform="interp"/>
+         <interp id="c224" value="ww pv_vt_zelfst n" TEIform="interp"/>
+         <interp id="c225" value="ww pv_vt_zelfst r" TEIform="interp"/>
+         <interp id="c226" value="ww pv_vt_zelfst a" TEIform="interp"/>
+         <interp id="c227" value="ww pv_vt_zelfst nt" TEIform="interp"/>
+         <interp id="c229" value="ww pv_vt_zelfst probleem" TEIform="interp"/>
+         <interp id="c230" value="ww pv_vt_hulp_koppel geen" TEIform="interp"/>
+         <interp id="c231" value="ww pv_vt_hulp_koppel e" TEIform="interp"/>
+         <interp id="c232" value="ww pv_vt_hulp_koppel s" TEIform="interp"/>
+         <interp id="c233" value="ww pv_vt_hulp_koppel t" TEIform="interp"/>
+         <interp id="c234" value="ww pv_vt_hulp_koppel n" TEIform="interp"/>
+         <interp id="c235" value="ww pv_vt_hulp_koppel r" TEIform="interp"/>
+         <interp id="c236" value="ww pv_vt_hulp_koppel a" TEIform="interp"/>
+         <interp id="c237" value="ww pv_vt_hulp_koppel nt" TEIform="interp"/>
+         <interp id="c239" value="ww pv_vt_hulp_koppel probleem" TEIform="interp"/>
+         <interp id="c240" value="ww imp geen" TEIform="interp"/>
+         <interp id="c241" value="ww imp e" TEIform="interp"/>
+         <interp id="c242" value="ww imp s" TEIform="interp"/>
+         <interp id="c243" value="ww imp t" TEIform="interp"/>
+         <interp id="c244" value="ww imp n" TEIform="interp"/>
+         <interp id="c245" value="ww imp r" TEIform="interp"/>
+         <interp id="c246" value="ww imp a" TEIform="interp"/>
+         <interp id="c247" value="ww imp nt" TEIform="interp"/>
+         <interp id="c249" value="ww imp probleem" TEIform="interp"/>
+         <interp id="c250" value="ww inf geen" TEIform="interp"/>
+         <interp id="c251" value="ww inf e" TEIform="interp"/>
+         <interp id="c252" value="ww inf s" TEIform="interp"/>
+         <interp id="c253" value="ww inf t" TEIform="interp"/>
+         <interp id="c254" value="ww inf n" TEIform="interp"/>
+         <interp id="c255" value="ww inf r" TEIform="interp"/>
+         <interp id="c256" value="ww inf a" TEIform="interp"/>
+         <interp id="c257" value="ww inf nt" TEIform="interp"/>
+         <interp id="c259" value="ww inf probleem" TEIform="interp"/>
+         <interp id="c270" value="ww deelwoord geen" TEIform="interp"/>
+         <interp id="c271" value="ww deelwoord e" TEIform="interp"/>
+         <interp id="c272" value="ww deelwoord s" TEIform="interp"/>
+         <interp id="c273" value="ww deelwoord t" TEIform="interp"/>
+         <interp id="c274" value="ww deelwoord n" TEIform="interp"/>
+         <interp id="c275" value="ww deelwoord r" TEIform="interp"/>
+         <interp id="c276" value="ww deelwoord a" TEIform="interp"/>
+         <interp id="c277" value="ww deelwoord nt" TEIform="interp"/>
+         <interp id="c279" value="ww deelwoord probleem" TEIform="interp"/>
+         <interp id="c290" value="ww probleem geen" TEIform="interp"/>
+         <interp id="c291" value="ww probleem e" TEIform="interp"/>
+         <interp id="c292" value="ww probleem s" TEIform="interp"/>
+         <interp id="c293" value="ww probleem t" TEIform="interp"/>
+         <interp id="c294" value="ww probleem n" TEIform="interp"/>
+         <interp id="c295" value="ww probleem r" TEIform="interp"/>
+         <interp id="c296" value="ww probleem a" TEIform="interp"/>
+         <interp id="c297" value="ww probleem nt" TEIform="interp"/>
+         <interp id="c299" value="ww probleem probleem" TEIform="interp"/>
+         <interp id="c300" value="tw hoofd geen" TEIform="interp"/>
+         <interp id="c301" value="tw hoofd e" TEIform="interp"/>
+         <interp id="c302" value="tw hoofd s" TEIform="interp"/>
+         <interp id="c303" value="tw hoofd t" TEIform="interp"/>
+         <interp id="c304" value="tw hoofd n" TEIform="interp"/>
+         <interp id="c305" value="tw hoofd r" TEIform="interp"/>
+         <interp id="c306" value="tw hoofd a" TEIform="interp"/>
+         <interp id="c307" value="tw hoofd nt" TEIform="interp"/>
+         <interp id="c309" value="tw hoofd probleem" TEIform="interp"/>
+         <interp id="c310" value="tw rang geen" TEIform="interp"/>
+         <interp id="c311" value="tw rang e" TEIform="interp"/>
+         <interp id="c312" value="tw rang s" TEIform="interp"/>
+         <interp id="c313" value="tw rang t" TEIform="interp"/>
+         <interp id="c314" value="tw rang n" TEIform="interp"/>
+         <interp id="c315" value="tw rang r" TEIform="interp"/>
+         <interp id="c316" value="tw rang a" TEIform="interp"/>
+         <interp id="c317" value="tw rang nt" TEIform="interp"/>
+         <interp id="c319" value="tw rang probleem" TEIform="interp"/>
+         <interp id="c320" value="tw onbep geen" TEIform="interp"/>
+         <interp id="c321" value="tw onbep e" TEIform="interp"/>
+         <interp id="c322" value="tw onbep s" TEIform="interp"/>
+         <interp id="c323" value="tw onbep t" TEIform="interp"/>
+         <interp id="c324" value="tw onbep n" TEIform="interp"/>
+         <interp id="c325" value="tw onbep r" TEIform="interp"/>
+         <interp id="c326" value="tw onbep a" TEIform="interp"/>
+         <interp id="c327" value="tw onbep nt" TEIform="interp"/>
+         <interp id="c329" value="tw onbep probleem" TEIform="interp"/>
+         <interp id="c390" value="tw probleem geen" TEIform="interp"/>
+         <interp id="c391" value="tw probleem e" TEIform="interp"/>
+         <interp id="c392" value="tw probleem s" TEIform="interp"/>
+         <interp id="c393" value="tw probleem t" TEIform="interp"/>
+         <interp id="c394" value="tw probleem n" TEIform="interp"/>
+         <interp id="c395" value="tw probleem r" TEIform="interp"/>
+         <interp id="c396" value="tw probleem a" TEIform="interp"/>
+         <interp id="c397" value="tw probleem nt" TEIform="interp"/>
+         <interp id="c399" value="tw probleem probleem" TEIform="interp"/>
+         <interp id="c400" value="vn pers geen" TEIform="interp"/>
+         <interp id="c401" value="vn pers ev_1" TEIform="interp"/>
+         <interp id="c402" value="vn pers ev_2" TEIform="interp"/>
+         <interp id="c403" value="vn pers ev_3" TEIform="interp"/>
+         <interp id="c404" value="vn pers mv_1" TEIform="interp"/>
+         <interp id="c405" value="vn pers mv_2" TEIform="interp"/>
+         <interp id="c406" value="vn pers mv_3" TEIform="interp"/>
+         <interp id="c409" value="vn pers probleem" TEIform="interp"/>
+         <interp id="c410" value="vn aanw geen" TEIform="interp"/>
+         <interp id="c411" value="vn aanw e" TEIform="interp"/>
+         <interp id="c412" value="vn aanw s" TEIform="interp"/>
+         <interp id="c413" value="vn aanw t" TEIform="interp"/>
+         <interp id="c414" value="vn aanw n" TEIform="interp"/>
+         <interp id="c415" value="vn aanw r" TEIform="interp"/>
+         <interp id="c416" value="vn aanw a" TEIform="interp"/>
+         <interp id="c417" value="vn aanw nt" TEIform="interp"/>
+         <interp id="c419" value="vn aanw probleem" TEIform="interp"/>
+         <interp id="c420" value="vn betr geen" TEIform="interp"/>
+         <interp id="c421" value="vn betr e" TEIform="interp"/>
+         <interp id="c422" value="vn betr s" TEIform="interp"/>
+         <interp id="c423" value="vn betr t" TEIform="interp"/>
+         <interp id="c424" value="vn betr n" TEIform="interp"/>
+         <interp id="c425" value="vn betr r" TEIform="interp"/>
+         <interp id="c426" value="vn betr a" TEIform="interp"/>
+         <interp id="c427" value="vn betr nt" TEIform="interp"/>
+         <interp id="c429" value="vn betr probleem" TEIform="interp"/>
+         <interp id="c430" value="vn vrag geen" TEIform="interp"/>
+         <interp id="c431" value="vn vrag e" TEIform="interp"/>
+         <interp id="c432" value="vn vrag s" TEIform="interp"/>
+         <interp id="c433" value="vn vrag t" TEIform="interp"/>
+         <interp id="c434" value="vn vrag n" TEIform="interp"/>
+         <interp id="c435" value="vn vrag r" TEIform="interp"/>
+         <interp id="c436" value="vn vrag a" TEIform="interp"/>
+         <interp id="c437" value="vn vrag nt" TEIform="interp"/>
+         <interp id="c439" value="vn vrag probleem" TEIform="interp"/>
+         <interp id="c440" value="vn onbep geen" TEIform="interp"/>
+         <interp id="c441" value="vn onbep e" TEIform="interp"/>
+         <interp id="c442" value="vn onbep s" TEIform="interp"/>
+         <interp id="c443" value="vn onbep t" TEIform="interp"/>
+         <interp id="c444" value="vn onbep n" TEIform="interp"/>
+         <interp id="c445" value="vn onbep r" TEIform="interp"/>
+         <interp id="c446" value="vn onbep a" TEIform="interp"/>
+         <interp id="c447" value="vn onbep nt" TEIform="interp"/>
+         <interp id="c449" value="vn onbep probleem" TEIform="interp"/>
+         <interp id="c450" value="vn bezit geen" TEIform="interp"/>
+         <interp id="c451" value="vn bezit e" TEIform="interp"/>
+         <interp id="c452" value="vn bezit s" TEIform="interp"/>
+         <interp id="c453" value="vn bezit t" TEIform="interp"/>
+         <interp id="c454" value="vn bezit n" TEIform="interp"/>
+         <interp id="c455" value="vn bezit r" TEIform="interp"/>
+         <interp id="c456" value="vn bezit a" TEIform="interp"/>
+         <interp id="c457" value="vn bezit nt" TEIform="interp"/>
+         <interp id="c459" value="vn bezit probleem" TEIform="interp"/>
+         <interp id="c460" value="vn refl geen" TEIform="interp"/>
+         <interp id="c461" value="vn refl ev_1" TEIform="interp"/>
+         <interp id="c462" value="vn refl ev_2" TEIform="interp"/>
+         <interp id="c463" value="vn refl ev_3" TEIform="interp"/>
+         <interp id="c464" value="vn refl mv_1" TEIform="interp"/>
+         <interp id="c465" value="vn refl mv_2" TEIform="interp"/>
+         <interp id="c466" value="vn refl mv_3" TEIform="interp"/>
+         <interp id="c469" value="vn refl probleem" TEIform="interp"/>
+         <interp id="c470" value="vn lidw_bep geen" TEIform="interp"/>
+         <interp id="c471" value="vn lidw_bep e" TEIform="interp"/>
+         <interp id="c472" value="vn lidw_bep s" TEIform="interp"/>
+         <interp id="c473" value="vn lidw_bep t" TEIform="interp"/>
+         <interp id="c474" value="vn lidw_bep n" TEIform="interp"/>
+         <interp id="c475" value="vn lidw_bep r" TEIform="interp"/>
+         <interp id="c476" value="vn lidw_bep a" TEIform="interp"/>
+         <interp id="c477" value="vn lidw_bep nt" TEIform="interp"/>
+         <interp id="c479" value="vn lidw_bep probleem" TEIform="interp"/>
+         <interp id="c480" value="vn lidw_onbep geen" TEIform="interp"/>
+         <interp id="c481" value="vn lidw_onbep e" TEIform="interp"/>
+         <interp id="c482" value="vn lidw_onbep s" TEIform="interp"/>
+         <interp id="c483" value="vn lidw_onbep t" TEIform="interp"/>
+         <interp id="c484" value="vn lidw_onbep n" TEIform="interp"/>
+         <interp id="c485" value="vn lidw_onbep r" TEIform="interp"/>
+         <interp id="c486" value="vn lidw_onbep a" TEIform="interp"/>
+         <interp id="c487" value="vn lidw_onbep nt" TEIform="interp"/>
+         <interp id="c489" value="vn lidw_onbep probleem" TEIform="interp"/>
+         <interp id="c490" value="vn probleem geen" TEIform="interp"/>
+         <interp id="c491" value="vn probleem e" TEIform="interp"/>
+         <interp id="c492" value="vn probleem s" TEIform="interp"/>
+         <interp id="c493" value="vn probleem t" TEIform="interp"/>
+         <interp id="c494" value="vn probleem n" TEIform="interp"/>
+         <interp id="c495" value="vn probleem r" TEIform="interp"/>
+         <interp id="c496" value="vn probleem a" TEIform="interp"/>
+         <interp id="c497" value="vn probleem nt" TEIform="interp"/>
+         <interp id="c499" value="vn probleem probleem" TEIform="interp"/>
+         <interp id="c500" value="bw gewoon geen" TEIform="interp"/>
+         <interp id="c501" value="bw gewoon e" TEIform="interp"/>
+         <interp id="c502" value="bw gewoon s" TEIform="interp"/>
+         <interp id="c503" value="bw gewoon t" TEIform="interp"/>
+         <interp id="c504" value="bw gewoon n" TEIform="interp"/>
+         <interp id="c505" value="bw gewoon r" TEIform="interp"/>
+         <interp id="c506" value="bw gewoon a" TEIform="interp"/>
+         <interp id="c507" value="bw gewoon nt" TEIform="interp"/>
+         <interp id="c509" value="bw gewoon probleem" TEIform="interp"/>
+         <interp id="c510" value="bw aanw geen" TEIform="interp"/>
+         <interp id="c511" value="bw aanw e" TEIform="interp"/>
+         <interp id="c512" value="bw aanw s" TEIform="interp"/>
+         <interp id="c513" value="bw aanw t" TEIform="interp"/>
+         <interp id="c514" value="bw aanw n" TEIform="interp"/>
+         <interp id="c515" value="bw aanw r" TEIform="interp"/>
+         <interp id="c516" value="bw aanw a" TEIform="interp"/>
+         <interp id="c517" value="bw aanw nt" TEIform="interp"/>
+         <interp id="c519" value="bw aanw probleem" TEIform="interp"/>
+         <interp id="c520" value="bw betr geen" TEIform="interp"/>
+         <interp id="c521" value="bw betr e" TEIform="interp"/>
+         <interp id="c522" value="bw betr s" TEIform="interp"/>
+         <interp id="c523" value="bw betr t" TEIform="interp"/>
+         <interp id="c524" value="bw betr n" TEIform="interp"/>
+         <interp id="c525" value="bw betr r" TEIform="interp"/>
+         <interp id="c526" value="bw betr a" TEIform="interp"/>
+         <interp id="c527" value="bw betr nt" TEIform="interp"/>
+         <interp id="c529" value="bw betr probleem" TEIform="interp"/>
+         <interp id="c530" value="bw vrag geen" TEIform="interp"/>
+         <interp id="c531" value="bw vrag e" TEIform="interp"/>
+         <interp id="c532" value="bw vrag s" TEIform="interp"/>
+         <interp id="c533" value="bw vrag t" TEIform="interp"/>
+         <interp id="c534" value="bw vrag n" TEIform="interp"/>
+         <interp id="c535" value="bw vrag r" TEIform="interp"/>
+         <interp id="c536" value="bw vrag a" TEIform="interp"/>
+         <interp id="c537" value="bw vrag nt" TEIform="interp"/>
+         <interp id="c539" value="bw vrag probleem" TEIform="interp"/>
+         <interp id="c540" value="bw onbep geen" TEIform="interp"/>
+         <interp id="c541" value="bw onbep e" TEIform="interp"/>
+         <interp id="c542" value="bw onbep s" TEIform="interp"/>
+         <interp id="c543" value="bw onbep t" TEIform="interp"/>
+         <interp id="c544" value="bw onbep n" TEIform="interp"/>
+         <interp id="c545" value="bw onbep r" TEIform="interp"/>
+         <interp id="c546" value="bw onbep a" TEIform="interp"/>
+         <interp id="c547" value="bw onbep nt" TEIform="interp"/>
+         <interp id="c549" value="bw onbep probleem" TEIform="interp"/>
+         <interp id="c550" value="bw hervat geen" TEIform="interp"/>
+         <interp id="c551" value="bw hervat e" TEIform="interp"/>
+         <interp id="c552" value="bw hervat s" TEIform="interp"/>
+         <interp id="c553" value="bw hervat t" TEIform="interp"/>
+         <interp id="c554" value="bw hervat n" TEIform="interp"/>
+         <interp id="c555" value="bw hervat r" TEIform="interp"/>
+         <interp id="c556" value="bw hervat a" TEIform="interp"/>
+         <interp id="c557" value="bw hervat nt" TEIform="interp"/>
+         <interp id="c559" value="bw hervat probleem" TEIform="interp"/>
+         <interp id="c560" value="bw ontken geen" TEIform="interp"/>
+         <interp id="c561" value="bw ontken e" TEIform="interp"/>
+         <interp id="c562" value="bw ontken s" TEIform="interp"/>
+         <interp id="c563" value="bw ontken t" TEIform="interp"/>
+         <interp id="c564" value="bw ontken n" TEIform="interp"/>
+         <interp id="c565" value="bw ontken r" TEIform="interp"/>
+         <interp id="c566" value="bw ontken a" TEIform="interp"/>
+         <interp id="c567" value="bw ontken nt" TEIform="interp"/>
+         <interp id="c569" value="bw ontken probleem" TEIform="interp"/>
+         <interp id="c590" value="bw probleem geen" TEIform="interp"/>
+         <interp id="c591" value="bw probleem e" TEIform="interp"/>
+         <interp id="c592" value="bw probleem s" TEIform="interp"/>
+         <interp id="c593" value="bw probleem t" TEIform="interp"/>
+         <interp id="c594" value="bw probleem n" TEIform="interp"/>
+         <interp id="c595" value="bw probleem r" TEIform="interp"/>
+         <interp id="c596" value="bw probleem a" TEIform="interp"/>
+         <interp id="c597" value="bw probleem nt" TEIform="interp"/>
+         <interp id="c599" value="bw probleem probleem" TEIform="interp"/>
+         <interp id="c600" value="vbw pers geen" TEIform="interp"/>
+         <interp id="c601" value="vbw pers e" TEIform="interp"/>
+         <interp id="c602" value="vbw pers s" TEIform="interp"/>
+         <interp id="c603" value="vbw pers t" TEIform="interp"/>
+         <interp id="c604" value="vbw pers n" TEIform="interp"/>
+         <interp id="c605" value="vbw pers r" TEIform="interp"/>
+         <interp id="c606" value="vbw pers a" TEIform="interp"/>
+         <interp id="c607" value="vbw pers nt" TEIform="interp"/>
+         <interp id="c609" value="vbw pers probleem" TEIform="interp"/>
+         <interp id="c610" value="vbw aanw geen" TEIform="interp"/>
+         <interp id="c611" value="vbw aanw e" TEIform="interp"/>
+         <interp id="c612" value="vbw aanw s" TEIform="interp"/>
+         <interp id="c613" value="vbw aanw t" TEIform="interp"/>
+         <interp id="c614" value="vbw aanw n" TEIform="interp"/>
+         <interp id="c615" value="vbw aanw r" TEIform="interp"/>
+         <interp id="c616" value="vbw aanw a" TEIform="interp"/>
+         <interp id="c617" value="vbw aanw nt" TEIform="interp"/>
+         <interp id="c619" value="vbw aanw probleem" TEIform="interp"/>
+         <interp id="c620" value="vbw betr geen" TEIform="interp"/>
+         <interp id="c621" value="vbw betr e" TEIform="interp"/>
+         <interp id="c622" value="vbw betr s" TEIform="interp"/>
+         <interp id="c623" value="vbw betr t" TEIform="interp"/>
+         <interp id="c624" value="vbw betr n" TEIform="interp"/>
+         <interp id="c625" value="vbw betr r" TEIform="interp"/>
+         <interp id="c626" value="vbw betr a" TEIform="interp"/>
+         <interp id="c627" value="vbw betr nt" TEIform="interp"/>
+         <interp id="c629" value="vbw betr probleem" TEIform="interp"/>
+         <interp id="c630" value="vbw vrag geen" TEIform="interp"/>
+         <interp id="c631" value="vbw vrag e" TEIform="interp"/>
+         <interp id="c632" value="vbw vrag s" TEIform="interp"/>
+         <interp id="c633" value="vbw vrag t" TEIform="interp"/>
+         <interp id="c634" value="vbw vrag n" TEIform="interp"/>
+         <interp id="c635" value="vbw vrag r" TEIform="interp"/>
+         <interp id="c636" value="vbw vrag a" TEIform="interp"/>
+         <interp id="c637" value="vbw vrag nt" TEIform="interp"/>
+         <interp id="c639" value="vbw vrag probleem" TEIform="interp"/>
+         <interp id="c640" value="vbw onbep geen" TEIform="interp"/>
+         <interp id="c641" value="vbw onbep e" TEIform="interp"/>
+         <interp id="c642" value="vbw onbep s" TEIform="interp"/>
+         <interp id="c643" value="vbw onbep t" TEIform="interp"/>
+         <interp id="c644" value="vbw onbep n" TEIform="interp"/>
+         <interp id="c645" value="vbw onbep r" TEIform="interp"/>
+         <interp id="c646" value="vbw onbep a" TEIform="interp"/>
+         <interp id="c647" value="vbw onbep nt" TEIform="interp"/>
+         <interp id="c649" value="vbw onbep probleem" TEIform="interp"/>
+         <interp id="c690" value="vbw probleem geen" TEIform="interp"/>
+         <interp id="c691" value="vbw probleem e" TEIform="interp"/>
+         <interp id="c692" value="vbw probleem s" TEIform="interp"/>
+         <interp id="c693" value="vbw probleem t" TEIform="interp"/>
+         <interp id="c694" value="vbw probleem n" TEIform="interp"/>
+         <interp id="c695" value="vbw probleem r" TEIform="interp"/>
+         <interp id="c696" value="vbw probleem a" TEIform="interp"/>
+         <interp id="c697" value="vbw probleem nt" TEIform="interp"/>
+         <interp id="c699" value="vbw probleem probleem" TEIform="interp"/>
+         <interp id="c700" value="vz geen" TEIform="interp"/>
+         <interp id="c701" value="vz e" TEIform="interp"/>
+         <interp id="c702" value="vz s" TEIform="interp"/>
+         <interp id="c703" value="vz t" TEIform="interp"/>
+         <interp id="c704" value="vz n" TEIform="interp"/>
+         <interp id="c705" value="vz r" TEIform="interp"/>
+         <interp id="c706" value="vz a" TEIform="interp"/>
+         <interp id="c707" value="vz nt" TEIform="interp"/>
+         <interp id="c709" value="vz probleem" TEIform="interp"/>
+         <interp id="c790" value="vz probleem geen" TEIform="interp"/>
+         <interp id="c791" value="vz probleem e" TEIform="interp"/>
+         <interp id="c792" value="vz probleem s" TEIform="interp"/>
+         <interp id="c793" value="vz probleem t" TEIform="interp"/>
+         <interp id="c794" value="vz probleem n" TEIform="interp"/>
+         <interp id="c795" value="vz probleem r" TEIform="interp"/>
+         <interp id="c796" value="vz probleem a" TEIform="interp"/>
+         <interp id="c797" value="vz probleem nt" TEIform="interp"/>
+         <interp id="c799" value="vz probleem probleem" TEIform="interp"/>
+         <interp id="c800" value="vw neven geen" TEIform="interp"/>
+         <interp id="c801" value="vw neven e" TEIform="interp"/>
+         <interp id="c802" value="vw neven s" TEIform="interp"/>
+         <interp id="c803" value="vw neven t" TEIform="interp"/>
+         <interp id="c804" value="vw neven n" TEIform="interp"/>
+         <interp id="c805" value="vw neven r" TEIform="interp"/>
+         <interp id="c806" value="vw neven a" TEIform="interp"/>
+         <interp id="c807" value="vw neven nt" TEIform="interp"/>
+         <interp id="c809" value="vw neven probleem" TEIform="interp"/>
+         <interp id="c810" value="vw onder geen" TEIform="interp"/>
+         <interp id="c811" value="vw onder e" TEIform="interp"/>
+         <interp id="c812" value="vw onder s" TEIform="interp"/>
+         <interp id="c813" value="vw onder t" TEIform="interp"/>
+         <interp id="c814" value="vw onder n" TEIform="interp"/>
+         <interp id="c815" value="vw onder r" TEIform="interp"/>
+         <interp id="c816" value="vw onder a" TEIform="interp"/>
+         <interp id="c817" value="vw onder nt" TEIform="interp"/>
+         <interp id="c819" value="vw onder probleem" TEIform="interp"/>
+         <interp id="c820" value="vw vgl geen" TEIform="interp"/>
+         <interp id="c821" value="vw vgl e" TEIform="interp"/>
+         <interp id="c822" value="vw vgl s" TEIform="interp"/>
+         <interp id="c823" value="vw vgl t" TEIform="interp"/>
+         <interp id="c824" value="vw vgl n" TEIform="interp"/>
+         <interp id="c825" value="vw vgl r" TEIform="interp"/>
+         <interp id="c826" value="vw vgl a" TEIform="interp"/>
+         <interp id="c827" value="vw vgl nt" TEIform="interp"/>
+         <interp id="c829" value="vw vgl probleem" TEIform="interp"/>
+         <interp id="c830" value="vw ne_en geen" TEIform="interp"/>
+         <interp id="c831" value="vw ne_en e" TEIform="interp"/>
+         <interp id="c832" value="vw ne_en s" TEIform="interp"/>
+         <interp id="c833" value="vw ne_en t" TEIform="interp"/>
+         <interp id="c834" value="vw ne_en n" TEIform="interp"/>
+         <interp id="c835" value="vw ne_en r" TEIform="interp"/>
+         <interp id="c836" value="vw ne_en a" TEIform="interp"/>
+         <interp id="c837" value="vw ne_en nt" TEIform="interp"/>
+         <interp id="c839" value="vw ne_en probleem" TEIform="interp"/>
+         <interp id="c840" value="vw alse geen" TEIform="interp"/>
+         <interp id="c841" value="vw alse e" TEIform="interp"/>
+         <interp id="c842" value="vw alse s" TEIform="interp"/>
+         <interp id="c843" value="vw alse t" TEIform="interp"/>
+         <interp id="c844" value="vw alse n" TEIform="interp"/>
+         <interp id="c845" value="vw alse r" TEIform="interp"/>
+         <interp id="c846" value="vw alse a" TEIform="interp"/>
+         <interp id="c847" value="vw alse nt" TEIform="interp"/>
+         <interp id="c849" value="vw alse probleem" TEIform="interp"/>
+         <interp id="c890" value="vw probleem geen" TEIform="interp"/>
+         <interp id="c891" value="vw probleem e" TEIform="interp"/>
+         <interp id="c892" value="vw probleem s" TEIform="interp"/>
+         <interp id="c893" value="vw probleem t" TEIform="interp"/>
+         <interp id="c894" value="vw probleem n" TEIform="interp"/>
+         <interp id="c895" value="vw probleem r" TEIform="interp"/>
+         <interp id="c896" value="vw probleem a" TEIform="interp"/>
+         <interp id="c897" value="vw probleem nt" TEIform="interp"/>
+         <interp id="c899" value="vw probleem probleem" TEIform="interp"/>
+         <interp id="c900" value="rest lat_probleem geen" TEIform="interp"/>
+         <interp id="c901" value="rest lat_probleem e" TEIform="interp"/>
+         <interp id="c902" value="rest lat_probleem s" TEIform="interp"/>
+         <interp id="c903" value="rest lat_probleem t" TEIform="interp"/>
+         <interp id="c904" value="rest lat_probleem n" TEIform="interp"/>
+         <interp id="c905" value="rest lat_probleem r" TEIform="interp"/>
+         <interp id="c906" value="rest lat_probleem a" TEIform="interp"/>
+         <interp id="c907" value="rest lat_probleem nt" TEIform="interp"/>
+         <interp id="c909" value="rest lat_probleem probleem" TEIform="interp"/>
+         <interp id="c910" value="tsw geen" TEIform="interp"/>
+         <interp id="c911" value="tsw e" TEIform="interp"/>
+         <interp id="c912" value="tsw s" TEIform="interp"/>
+         <interp id="c913" value="tsw t" TEIform="interp"/>
+         <interp id="c914" value="tsw n" TEIform="interp"/>
+         <interp id="c915" value="tsw r" TEIform="interp"/>
+         <interp id="c916" value="tsw a" TEIform="interp"/>
+         <interp id="c917" value="tsw nt" TEIform="interp"/>
+         <interp id="c919" value="tsw probleem" TEIform="interp"/>
+      </front>
+      <body TEIform="body">
+         <p TEIform="p">
+            <w lemma="wij" ana="c404" part="N">Wie</w>
+            <w lemma="johannes" ana="c020" part="N">jehan</w>
+            <w lemma="de kolvenaar" ana="c471 c021" part="N">de coluenare</w>
+            <w lemma="jacob" ana="c020" part="N">jacop</w>
+            <w lemma="van de werf" ana="c700 c471 c021" part="N">van den werue</w>
+            <w lemma="johannes" ana="c020" part="N">
+               <abbr resp="CDW" expan="jehan" TEIform="abbr">jeh</abbr>
+            </w>
+            <w lemma="huigeman" ana="c020" rend="space(0)" part="N">hugheman</w>
+            <c part="N" TEIform="c">,</c>
+            <w lemma="wilhelm" ana="c020" part="N">willem</w>
+            <w lemma="de mijmer" ana="c471 c020" part="N">de memer</w>
+            <w lemma="en" ana="c800" part="N">
+               <abbr resp="CDW" expan="ende" TEIform="abbr">en</abbr>
+            </w>
+            <w lemma="johannes" ana="c020" part="N">jehan</w>
+            <w lemma="van de vlierbeek" ana="c700 c474 c021" part="N">van den vliederbeke</w>
+            <lb TEIform="lb"/>
+            <w lemma="schepen" ana="c011" part="N">scepene</w>
+            <w lemma="van" ana="c700" part="N">van</w>
+            <w lemma="de" ana="c474" part="N">den</w>
+            <w lemma="iepers" ana="c104" part="N">ypersschen</w>
+            <w lemma="ambacht" ana="c001" part="N">ambochte</w>
+            <w lemma="doen" ana="c204" part="N">doen</w>
+            <w lemma="te" ana="c700" part="N">te</w>
+            <w lemma="weten" ana="c250" part="N">weten</w>
+            <w lemma="te al" ana="c700 c324" part="N">tollen</w>
+            <w lemma="degene" ana="c414" part="N">den ghonen</w>
+            <w lemma="die" ana="c421" part="N">die</w>
+            <w lemma="deze" ana="c411" part="N">dese</w>
+            <w lemma="letter" ana="c001" part="N">
+               <abbr resp="CDW" expan="lettre" TEIform="abbr">lette</abbr>
+            </w>
+            <w lemma="zullen" ana="c214" part="N">sullen</w>
+            <w lemma="zien" ana="c250" part="N">sien</w>
+            <w lemma="of" ana="c800" part="N">jof</w>
+            <w lemma="horen" ana="c250" part="N">horen</w>
+            <w lemma="lezen" ana="c250" part="N">leisen</w>
+            <w lemma="dat" ana="c810" part="N">dat</w>
+            <lb TEIform="lb"/>
+            <w lemma="johannes" ana="c020" part="N">jehan</w>
+            <w lemma="de puit" ana="c471 c020" part="N">de puud</w>
+            <w lemma="hendrik" ana="c022" part="N">henrix</w>
+            <w lemma="zoon" ana="c001" part="N">zone</w>
+            <w lemma="poorter" ana="c001" part="N">
+               <abbr resp="CDW" expan="portre" TEIform="abbr">porte</abbr>
+            </w>
+            <w lemma="in" ana="c700" part="N">in</w>
+            <w lemma="ieper" ana="c021" part="N">ypre</w>
+            <w lemma="zijn" ana="c210" part="N">es</w>
+            <w lemma="komen" ana="c274" part="N">comen</w>
+            <w lemma="voor" ana="c709" part="N">vo<supplied resp="CDW" reason="onduidelijk" TEIform="supplied">r</supplied>
+            </w>
+            <w lemma="ons" ana="c404" part="N">o<supplied resp="CDW" reason="onduidelijk" TEIform="supplied">ns</supplied>
+            </w>
+            <w lemma="in" ana="c700" part="N">in</w>
+            <w lemma="proper" ana="c101" part="N">
+               <abbr resp="CDW" expan="propre" TEIform="abbr">ppre</abbr>
+            </w>
+            <w lemma="persoon" ana="c001" part="N">
+               <abbr resp="CDW" expan="persone" TEIform="abbr">psone</abbr>
+            </w>
+            <w lemma="en" ana="c800" part="N">ende</w>
+            <w lemma="hebben" ana="c213" part="N">heift</w>
+            <w lemma="verkennen" ana="c273" part="N">verkennet</w>
+            <w lemma="dat" ana="c810" part="N">dat</w>
+            <w lemma="hij" ana="c403" part="N">hi</w>
+            <w lemma="hebben" ana="c213" part="N">heift</w>
+            <lb TEIform="lb"/>
+            <w lemma="huren" ana="c273" part="N">yhuert</w>
+            <w lemma="jegens" ana="c700" part="N">jeghen</w>
+            <w lemma="de" ana="c474" part="N">den</w>
+            <w lemma="heer" ana="c001" part="N">here</w>
+            <w lemma="dionysus" ana="c020" part="N">denys</w>
+            <w lemma="schattin" ana="c020" part="N">scattine</w>
+            <w lemma="poorter" ana="c001" part="N">
+               <abbr resp="CDW" expan="portre" TEIform="abbr">porte</abbr>
+            </w>
+            <w lemma="in" ana="c700" part="N">in</w>
+            <w lemma="ieper" ana="c021" part="N">
+               <abbr resp="CDW" expan="ypre" TEIform="abbr">yp</abbr>
+            </w>
+            <w lemma="twee" ana="c301" part="N">twee</w>
+            <w lemma="gemet" ana="c011" part="N">ymete</w>
+            <w lemma="land" ana="c002" part="N">lants</w>
+            <w lemma="en" ana="c800" part="N">
+               <abbr resp="CDW" expan="ende" TEIform="abbr">en</abbr>
+            </w>
+            <w lemma="een" ana="c300" part="N">een</w>
+            <w lemma="vierdedeel" ana="c000" part="N">vierendeel</w>
+            <w lemma="luttel" ana="c500" part="N">lettel</w>
+            <w lemma="min" ana="c500" part="N">min</w>
+            <w lemma="of" ana="c800" part="N">jof</w>
+            <w lemma="luttel" ana="c500" part="N">lettel</w>
+            <lb TEIform="lb"/>
+            <w lemma="meer" ana="c500" part="N">meer</w>
+            <w lemma="liggen" ana="c279" part="N">ligghen<supplied resp="CDW" reason="onduidelijk" TEIform="supplied">de</supplied>
+            </w>
+            <w lemma="onder" ana="c700" part="N">onder</w>
+            <w lemma="mijn" ana="c454" part="N">minen</w>
+            <w lemma="heer" ana="c001" part="N">here</w>
+            <w lemma="van" ana="c700" part="N">van</w>
+            <w lemma="vlaanderen" ana="c021" part="N">
+               <abbr resp="CDW" expan="vlaendre" TEIform="abbr">vlaend</abbr>
+            </w>
+            <w lemma="binnen" ana="c700" part="N">binnen</w>
+            <w lemma="de" ana="c474" part="N">den</w>
+            <w lemma="iepers" ana="c104" part="N">
+               <abbr resp="CDW" expan="ypersschen" TEIform="abbr">ypsschen</abbr>
+            </w>
+            <w lemma="ambacht" ana="c001" part="N">ambochte</w>
+            <w lemma="in" ana="c700" part="N">in</w>
+            <w lemma="de" ana="c471" part="N">de</w>
+            <w lemma="parochie" ana="c001" part="N">prochie</w>
+            <w lemma="van" ana="c700" part="N">van</w>
+            <w lemma="dikkebus" ana="c020" part="N">dickebusch</w>
+            <w lemma="in" ana="c700" part="N">in</w>
+            <w lemma="twee" ana="c304" part="N">twen</w>
+            <lb TEIform="lb"/>
+            <w lemma="stuk" ana="c014" part="N">sticken</w>
+            <w lemma="dat zijn" ana="c410 c210" part="N">dats</w>
+            <w lemma="te" ana="c700" part="N">te</w>
+            <w lemma="weten" ana="c251" part="N">wetene</w>
+            <w lemma="een" ana="c300" part="N">een</w>
+            <w lemma="gemet" ana="c000" part="N">ymet</w>
+            <w lemma="en" ana="c800" part="N">
+               <abbr resp="CDW" expan="ende" TEIform="abbr">en</abbr>
+            </w>
+            <w lemma="een" ana="c300" part="N">een</w>
+            <w lemma="vierdedeel" ana="c000" part="N">vierendeel</w>
+            <w lemma="liggen" ana="c271" part="N">ligghende</w>
+            <w lemma="tussen" ana="c700" part="N">tusschen</w>
+            <w lemma="nicolaas" ana="c020" part="N">clais</w>
+            <w lemma="puit" ana="c022" part="N">puuds</w>
+            <w lemma="land" ana="c001" part="N">lande</w>
+            <w lemma="aan" ana="c700" part="N">an</w>
+            <w lemma="de een" ana="c470 c101" part="N">dene</w>
+            <w lemma="zijde" ana="c001" part="N">zide</w>
+            <w lemma="en" ana="c800" part="N">
+               <abbr resp="CDW" expan="ende" TEIform="abbr">en</abbr>
+            </w>
+            <w lemma="de" ana="c474" part="N">den</w>
+            <lb TEIform="lb"/>
+            <w lemma="land" ana="c001" part="N">lande</w>
+            <w lemma="kan" ana="c020" part="N">kanin</w>
+            <w lemma="lauwerijn" ana="c022" part="N">lauwe<supplied resp="CDW" reason="onduidelijk" TEIform="supplied">rein</supplied>s</w>
+            <w lemma="aan" ana="c700" part="N">an</w>
+            <w lemma="de ander" ana="c470 c100" part="N">dander</w>
+            <w lemma="zijde" ana="c001" part="N">zide</w>
+            <c part="N" TEIform="c">.</c>
+            <w lemma="en" ana="c800" part="N">
+               <abbr resp="CDW" expan="ende" TEIform="abbr">en</abbr>
+            </w>
+            <w lemma="een" ana="c300" part="N">een</w>
+            <w lemma="gemet" ana="c000" part="N">ymet</w>
+            <w lemma="luttel" ana="c500" part="N">lettel</w>
+            <w lemma="min" ana="c500" part="N">min</w>
+            <w lemma="of" ana="c800" part="N">jof</w>
+            <w lemma="luttel" ana="c500" part="N">lettel</w>
+            <w lemma="meer" ana="c500" part="N">meer</w>
+            <w lemma="tussen" ana="c700" part="N">
+               <abbr resp="CDW" expan="tusschen" TEIform="abbr">tussche</abbr>
+            </w>
+            <w lemma="johannes" ana="c022" part="N">jehans</w>
+            <w lemma="puit" ana="c022" part="N">puuds</w>
+            <w lemma="leen" ana="c001" part="N">lene</w>
+            <lb TEIform="lb"/>
+            <w lemma="en" ana="c800" part="N">
+               <abbr resp="CDW" expan="ende" TEIform="abbr">en</abbr>
+            </w>
+            <w lemma="wilhelm" ana="c020" part="N">willem</w>
+            <w lemma="edwards" ana="c022" part="N">edewards</w>
+            <w lemma="land" ana="c001" part="N">lande</w>
+            <w lemma="te" ana="c700" part="N">te</w>
+            <w lemma="houden" ana="c251" part="N">houdene</w>
+            <w lemma="tien" ana="c301" part="N">tiene</w>
+            <w lemma="jaar" ana="c010" part="N">jaer</w>
+            <w lemma="van" ana="c700" part="N">van</w>
+            <w lemma="sint bavo mis" ana="c101 c022 c001" part="N">sinte baefs messe</w>
+            <c part="N" TEIform="c">.</c>
+            <w lemma="de eerst" ana="c470 c311" part="N">deerste</w>
+            <w lemma="die" ana="c421" part="N">die</w>
+            <w lemma="komen" ana="c203" part="N">comt</w>
+            <w lemma="elk" ana="c442" part="N">elkes</w>
+            <w lemma="jaar" ana="c002" part="N">jaers</w>
+            <w lemma="elk" ana="c440" part="N">elc</w>
+            <lb TEIform="lb"/>
+            <w lemma="gemet" ana="c000" part="N">ymet</w>
+            <w lemma="om" ana="c700" part="N">
+               <abbr resp="CDW" expan="omme" TEIform="abbr">ome</abbr>
+            </w>
+            <w lemma="twintig" ana="c300" part="N">twintich</w>
+            <w lemma="schelling" ana="c011" part="N">scellinghe</w>
+            <w lemma="parisijs" ana="c109" part="N">
+               <abbr resp="CDW" TEIform="abbr">par</abbr>
+            </w>
+            <w lemma="te" ana="c700" part="N">te</w>
+            <w lemma="gelden" ana="c251" part="N">gheldene</w>
+            <w lemma="de" ana="c474" part="N">den</w>
+            <w lemma="voorgezegd" ana="c104" part="N">vorseiden</w>
+            <w lemma="heer" ana="c001" part="N">here</w>
+            <w lemma="dionysus" ana="c021" part="N">denise</w>
+            <w lemma="of" ana="c800" part="N">jof</w>
+            <w lemma="degene" ana="c414" part="N">den ghonen</w>
+            <w lemma="die" ana="c421" part="N">die</w>
+            <w lemma="deze" ana="c411" part="N">dese</w>
+            <w lemma="letter" ana="c001" part="N">lettre</w>
+            <lb TEIform="lb"/>
+            <w lemma="te" ana="c700" part="N">te</w>
+            <w lemma="hemwaarts" ana="c466" part="N">hemwaerd</w>
+            <w lemma="hebben" ana="c250" part="N">hebben</w>
+            <w lemma="zullen" ana="c210" part="N">zal</w>
+            <w lemma="te" ana="c700" part="N">te</w>
+            <w lemma="twee" ana="c304" part="N">tween</w>
+            <w lemma="paaiement" ana="c014" part="N">paiementen</w>
+            <w lemma="in het" ana="c700 c470" part="N">int</w>
+            <w lemma="jaar" ana="c000" part="N">jaer</w>
+            <w lemma="dat zijn" ana="c410 c210" part="N">dats</w>
+            <w lemma="te" ana="c700" part="N">te</w>
+            <w lemma="weten" ana="c251" part="N">wetene</w>
+            <w lemma="de een" ana="c470 c101" part="N">dene</w>
+            <w lemma="helft" ana="c000" part="N">helt</w>
+            <w lemma="te" ana="c700" part="N">te</w>
+            <w lemma="sint johannes mis" ana="c101 c022 c001" part="N">sinte jans messe</w>
+            <lb TEIform="lb"/>
+            <w lemma="midzomer" ana="c022" part="N">mids zomers</w>
+            <w lemma="de eerst" ana="c470 c311" part="N">deerste</w>
+            <w lemma="die" ana="c421" part="N">die</w>
+            <w lemma="komen" ana="c203" part="N">comt</w>
+            <w lemma="en" ana="c800" part="N">ende</w>
+            <w lemma="de ander" ana="c470 c100" part="N">dander</w>
+            <w lemma="helft" ana="c000" part="N">helt</w>
+            <w lemma="te" ana="c700" part="N">te</w>
+            <w lemma="sint bavo mis" ana="c101 c022 c001" part="N">sinte baefs messe</w>
+            <w lemma="daarna" ana="c610" part="N">dar nar</w>
+            <w lemma="komen" ana="c271" part="N">comende</w>
+            <w lemma="en" ana="c800" part="N">ende</w>
+            <w lemma="alzo" ana="c510" part="N">alse</w>
+            <w lemma="voort" ana="c500" part="N">vor</w>
+            <w lemma="van" ana="c700" part="N">van</w>
+            <lb TEIform="lb"/>
+            <w lemma="jaar" ana="c001" part="N">jare</w>
+            <w lemma="te" ana="c700" part="N">te</w>
+            <w lemma="jaar" ana="c001" part="N">jare</w>
+            <w lemma="en" ana="c800" part="N">
+               <abbr resp="CDW" expan="ende" TEIform="abbr">en</abbr>
+            </w>
+            <w lemma="van" ana="c700" part="N">van</w>
+            <w lemma="termijn" ana="c004" part="N">
+               <abbr resp="CDW" expan="terminen" TEIform="abbr">tminen</abbr>
+            </w>
+            <w lemma="te" ana="c700" part="N">te</w>
+            <w lemma="termijn" ana="c004" part="N">
+               <abbr resp="CDW" expan="terminen" TEIform="abbr">tminen</abbr>
+            </w>
+            <w lemma="de" ana="c471" part="N">de</w>
+            <w lemma="tien" ana="c301" part="N">tiene</w>
+            <w lemma="jaar" ana="c010" part="N">jaer</w>
+            <w lemma="geduren" ana="c271" part="N">yduerende</w>
+            <w lemma="in" ana="c700" part="N">jn</w>
+            <w lemma="oorkondschap" ana="c000" part="N">orconscep</w>
+            <w lemma="van" ana="c700" part="N">van</w>
+            <w lemma="deze" ana="c414" part="N">desen</w>
+            <w lemma="ding" ana="c014" part="N">dinghen</w>
+            <w lemma="hebben" ana="c214" part="N">hebben</w>
+            <lb TEIform="lb"/>
+            <w lemma="wij" ana="c404" part="N">wie</w>
+            <w lemma="schepen" ana="c011" part="N">scepene</w>
+            <w lemma="voornoemen" ana="c273" part="N">vornomt</w>
+            <w lemma="deze" ana="c411" part="N">dese</w>
+            <w lemma="letter" ana="c001" part="N">
+               <abbr resp="CDW" expan="lettre" TEIform="abbr">lette</abbr>
+            </w>
+            <w lemma="bezegelen" ana="c273" part="N">beseghelt</w>
+            <w lemma="met" ana="c700" part="N">met</w>
+            <w lemma="ons" ana="c454" part="N">onsen</w>
+            <w lemma="zegel" ana="c014" part="N">seighelen</w>
+            <w part="N">vtehanghende</w>
+            <w lemma="dit" ana="c410" part="N">dit</w>
+            <w lemma="zijn" ana="c230" part="N">was</w>
+            <w lemma="doen" ana="c274" part="N">ydaen</w>
+            <w lemma="in het" ana="c700 c470" part="N">jnt</w>
+            <w lemma="jaar" ana="c000" part="N">jaer</w>
+            <lb TEIform="lb"/>
+            <w lemma="ons" ana="c450" part="N">ons</w>
+            <w lemma="heer" ana="c004" part="N">heren</w>
+            <w lemma="mccc" ana="c300" part="N">.m.ccc</w>
+            <w lemma="zes" ana="c301" part="N">zesse</w>
+            <w lemma="en" ana="c800" part="N">
+               <abbr resp="CDW" expan="ende" TEIform="abbr">en</abbr>
+            </w>
+            <w lemma="dertig" ana="c300" part="N">dartich</w>
+            <w lemma="zaterdag" ana="c022" part="N">saterdaghes</w>
+            <w lemma="voor" ana="c700" part="N">vor</w>
+            <w lemma="sint bavo dag" ana="c101 c022 c000" part="N">sinte baefs dach</w>
+            <lb TEIform="lb"/>
+         </p>
+      </body>
+   </text>
+</TEI.2>
